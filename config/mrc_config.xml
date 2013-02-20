@@ -2,8 +2,7 @@
 <config>
   <application title="U.S. Forest Change Assessment Viewer" >
   </application>
-  <extent xmin="-15000000" ymin="2000000" xmax="-6000000" ymax="7000000" xminZoom="-15000000" yminZoom="2000000" xmaxZoom="-6000000" ymaxZoom="7000000" wkid="102100">		
-  </extent>
+  <extent xmin="-9400000" ymin="4150000" xmax="-8900000" ymax="4400000" xminZoom="-9400000" yminZoom="4150000" xmaxZoom="-8900000" ymaxZoom="4400000" wkid="102100"></extent> 
   <server map_path="http://arcgisserver7.nemac.org/ArcGIS/" >
   </server>
   <services>  
