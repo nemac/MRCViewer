@@ -899,7 +899,7 @@
                     "zoomend": function() { app.emit("extentchange"); }
                 },               
                 zoom: 1,
-                projection: new OpenLayers.Projection("EPSG:900913")
+                projection: new OpenLayers.Projection("EPSG:4326")
             });  
 
             // set the base layer, but bypass setBaseLayer() here, because that function initiates an ajax request
@@ -980,7 +980,7 @@
                 new OpenLayers.Layer.WMS(this.name,
                                          this.url,
                                          {
-                                             projection  : new OpenLayers.Projection("EPSG:900913"), 
+                                             projection  : new OpenLayers.Projection("EPSG:4326"), 
                                              units       : "m", 
                                              layers      : this.layers, 
                                              maxExtent   : new OpenLayers.Bounds(app.maxExtent),
@@ -1203,13 +1203,10 @@
                       + '<div class="splash-screen-dialog" align="center">'
                       +   '<table>'
                       +     '<tr>'
-                      +       '<td align="center"><img src="icons/logos.png"/></td>'
+                      +       '<td align="center"><img src="icons/logo.png"/></td>'
                       +     '</tr>'
                       +     '<tr>'
-                      +       '<td align="center"><p><a href="http://forwarn.forestthreats.org/mrcgis/assets/mrcgis_Users_Guide_4.2.2012.pdf">mrcgis Users Guide</a></p></td>'
-                      +     '</tr>'
-                      +     '<tr>'
-                      +       '<td align="center"><p>For information on this viewer, contact support at ews-support@nemac.org</p></td>'
+                      +       '<td align="center"><p>For information on this viewer, contact wncvitalityindex@nemac.org</p></td>'
                       +     '</tr>'
                       +   '</table>'
                       + '</div>'
@@ -1222,7 +1219,7 @@
             dialogClass: 'splashScreenStyle',            
             autoOpen  : true,
             hide      : "explode",
-            title     : "U.S. Forest Change Assesment Viewer",
+            title     : "WNC Vitality Index GIS Viewer",
             close     : function() {
                 $(this).dialog('destroy');
                 $html.remove();
