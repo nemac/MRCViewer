@@ -49,7 +49,7 @@
 	 lid="AAC"
 	 visible="false"
 	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:3785"
+	 srs="EPSG:4326"
 	 layers="3"
 	 styles="default"
 	 identify="true"
@@ -59,7 +59,7 @@
 	 lid="AAD"
 	 visible="false"
 	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:3785"
+	 srs="EPSG:4326"
 	 layers="2"
 	 styles="default"
 	 identify="true"
@@ -68,20 +68,348 @@
 	 lid="BRH"
 	 visible="false"
 	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:3785"
+	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
 	 identify="true"
-	 name="COGs" legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/COGs.png"/>
+	 name="COGs" legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/COGs2.png"/>
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
+    <wmsSubgroup label="Topography">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="37"
+	 styles="default"
+	 identify="true"
+	 name="Hillshading"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Hillshading,_.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="36"
+	 styles="default"
+	 identify="true"
+	 name="Elevation, LIDAR 20ft"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Elevation,_LIDAR_20ft.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="35"
+	 styles="default"
+	 identify="true"
+	 name="Elevation, DEM 150M"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Elevation,_DEM_150M.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Geology">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="33"
+	 styles="default"
+	 identify="true"
+	 name="Slope, Percent"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Slope,_Percent.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="32"
+	 styles="default"
+	 identify="true"
+	 name="Slope, Degree"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Slope,_Degree.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="31"
+	 styles="default"
+	 identify="true"
+	 name="Fault Lines"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Fault_Lines.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="30"
+	 styles="default"
+	 identify="true"
+	 name="Earthquakes 1568-1996"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Earthquakes_1568-1996.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="29"
+	 styles="default"
+	 identify="true"
+	 name="Dikes"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Dikes.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="28"
+	 styles="default"
+	 identify="true"
+	 name="Geology"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Geology.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="27"
+	 styles="default"
+	 identify="true"
+	 name="Major Litho-Tectonic Features"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Major_Litho-Tectonic_Features.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="26"
+	 styles="default"
+	 identify="true"
+	 name="Soil Systems"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Soil_Systems.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="25"
+	 styles="default"
+	 identify="true"
+	 name="Soils, General"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Soils,_General.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Weather and Climate">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="23"
+	 styles="default"
+	 identify="true"
+	 name="Avg. Annual Precipitation 1971-2000"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg._Annual_Precipitation_1971-2000.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="22"
+	 styles="default"
+	 identify="true"
+	 name="Avg. Annual Maximum Temperature, 1971-2000"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg.%20Annual%20Maximum%20Temperature,%201971-2000.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="21"
+	 styles="default"
+	 identify="true"
+	 name="Avg. Annual Minimum Temperature, 1971-2000"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg._Annual_Minimum_Temperature,_1971-2000.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Water">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="19"
+	 styles="default"
+	 identify="true"
+	 name="Water Services"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Water_Services.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="18"
+	 styles="default"
+	 identify="true"
+	 name="2010 Impaired Waters"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/2010_Impaired_Waters.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="17"
+	 styles="default"
+	 identify="true"
+	 name="2006 Impaired Waters"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/2006_Impaired_Waters.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="16"
+	 styles="default"
+	 identify="true"
+	 name="Watersheds, General"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Watersheds,_General.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="15"
+	 styles="default"
+	 identify="true"
+	 name="Watersheds, Detailed "
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Watersheds,_Detailed.png"/>
+    </wmsSubgroup>
     <wmsSubgroup label="Ecosystems">
       <wmsLayer
 	 lid="BAA"
 	 visible="false"
 	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:3785"
+	 srs="EPSG:4326"
+	 layers="13"
+	 styles="default"
+	 identify="true"
+	 name="Threatened Agricultural Land"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Threatened_Agricultural_Land.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="12"
+	 styles="default"
+	 identify="true"
+	 name="Forest Threat"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Threat.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="11"
+	 styles="default"
+	 identify="true"
+	 name="Viable Agricultural Land"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Viable_Agricultural_Land.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="10"
+	 styles="default"
+	 identify="true"
+	 name="Important Forest Land"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Important_Forest_Land.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="9"
+	 styles="default"
+	 identify="true"
+	 name="Open Space and Conservation Lands"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Open_Space_and_Conservation_Lands.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="8"
+	 styles="default"
+	 identify="true"
+	 name="Biodiversity and Wildlife Habitat Assessment"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Biodiversity_and_Wildlife_Habitat_Assessment.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="7"
+	 styles="default"
+	 identify="true"
+	 name="Lands Managed for Conservation"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Lands_Managed_for_Conservation.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="6"
+	 styles="default"
+	 identify="true"
+	 name="Significant Natural Heritage Areas"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Significant_Natural_Heritage_Areas.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="5"
+	 styles="default"
+	 identify="true"
+	 name="Forest Land"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Land.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="4"
+	 styles="default"
+	 identify="true"
+	 name="Percent Forest Around Forest"
+	 legend="needs legend"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="3"
+	 styles="default"
+	 identify="true"
+	 name="Forest Type, 2003"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Average_Forest_Canopy_Height.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="2"
+	 styles="default"
+	 identify="true"
+	 name="Forest Group, 2003"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Type,_2003.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
 	 identify="true"
@@ -90,6 +418,132 @@
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G03" name="Human" label="Human">
+    <wmsSubgroup label="Population">
+      <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="16"
+	 styles="default"
+	 identify="true"
+	 name="Population"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Population_(2010).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="15"
+	 styles="default"
+	 identify="true"
+	 name="Population as a Percentage of North Carolina Population"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Population_as_a_Percentage_of_North_Carolina_Population.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="14"
+	 styles="default"
+	 identify="true"
+	 name="Population as a Percentage of the MRC Region"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Population_as_a_Percentage_of_the_MRC_Region.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="13"
+	 styles="default"
+	 identify="true"
+	 name="Percent Change in Median Age (2000-2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Percent_Change_in_Median_Age_(2000-2009).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="12"
+	 styles="default"
+	 identify="true"
+	 name="Median Age (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Median_Age_(2009).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="11"
+	 styles="default"
+	 identify="true"
+	 name="Land Scan Population 2006 "
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Land_Scan_Population_2006.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Health">
+      <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="9"
+	 styles="default"
+	 identify="true"
+	 name="Total Deaths from Cancer, Stroke, and Heart Disease per 10,000 People (2003-2007 Average)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Total_Deaths.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="8"
+	 styles="default"
+	 identify="true"
+	 name="Physicians per 10,000 People (2007)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Physicians_per_10,000_People_(2007).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="7"
+	 styles="default"
+	 identify="true"
+	 name="Infant Deaths per 1,000 Births (2003-2007 Average)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Infant_Deaths_(2003-07).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="6"
+	 styles="default"
+	 identify="true"
+	 name="Child Asthma per 100,000 Children (2007)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Child_Asthma_per_100,000_(2007).png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Education">
+      <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="4"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Population with High School Degree (>25 Years Old)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Percent_High_School_Education.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="3"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Population with College Degree (>25 Years Old)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Percent_of_Population_with_College_Degree.png"/>
+    </wmsSubgroup>
     <wmsSubgroup label="Culture">
       <wmsLayer
 	 lid="BAA"
@@ -100,7 +554,629 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Music Venues per County"
-	 legend="http://rain.nemac.org/~derek/fswms/html/vlayers?SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=cities&amp;VERSION=1.1.1&amp;FORMAT=image/png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Number_of_Music_Venues_per_County.png"/>
+    </wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G04" name="Built" label="Built">
+    <wmsSubgroup label="Land">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="34"
+	 styles="default"
+	 identify="true"
+	 name="Landcover, 2006"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Landcover,_2006.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="33"
+	 styles="default"
+	 identify="true"
+	 name="Landcover, 2001"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Landcover,_2001.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="32"
+	 styles="default"
+	 identify="true"
+	 name="Percent Forest Around Forest"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Percent_Forest_around_Forest.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="31"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 1976"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_1976.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="30"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 1985"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_1985.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="29"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 1996"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_1996.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="28"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2006"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_2006.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="27"
+	 styles="default"
+	 identify="true"
+	 name="Land Use 2010"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_2010.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="26"
+	 styles="default"
+	 identify="true"
+	 name="Projected Land Use 2015"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2015.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="25"
+	 styles="default"
+	 identify="true"
+	 name="Projected Land Use 2020"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2020.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="24"
+	 styles="default"
+	 identify="true"
+	 name="Projected Land Use 2025"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2025.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="23"
+	 styles="default"
+	 identify="true"
+	 name="Projected Land Use 2030"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2030.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="22"
+	 styles="default"
+	 identify="true"
+	 name="Forested Area to Developed by 2030"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Forested_Area_to_Developed_by_2030.png"/>
+	</wmsSubgroup>
+    <wmsSubgroup label="Transportation">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="20"
+	 styles="default"
+	 identify="true"
+	 name="Airports"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Airports.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="19"
+	 styles="default"
+	 identify="true"
+	 name="Roads"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Roads.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="18"
+	 styles="default"
+	 identify="true"
+	 name="Railroads"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Railroads.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="17"
+	 styles="default"
+	 identify="true"
+	 name="National Forest Roadless Areas"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/National_Forest_Roadless_Areas.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="16"
+	 styles="default"
+	 identify="true"
+	 name="Percent Unpaved Roads"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Percent_Unpaved_Roads.png"/>
+	</wmsSubgroup>
+    <wmsSubgroup label="Housing">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="14"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Renters Unable to Afford Two-Bedroom"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Percent_of_Renters_Unable_to_Afford_Two-Bedroom.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="13"
+	 styles="default"
+	 identify="true"
+	 name="Rent Affordable with Full-time Job"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Rent_Affordable_with_Full-time_Job.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="12"
+	 styles="default"
+	 identify="true"
+	 name="Two-Bedroom Fair Market Rent"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Two-Bedroom_Fair_Market_Rent.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="11"
+	 styles="default"
+	 identify="true"
+	 name="Median House Values"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Median_House_Values.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="10"
+	 styles="default"
+	 identify="true"
+	 name="Housing Units per County"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Housing_Units_per_County.png"/>
+	</wmsSubgroup> 
+    <wmsSubgroup label="Energy">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="8"
+	 styles="default"
+	 identify="true"
+	 name="Power Plants"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Power_Plants.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="7"
+	 styles="default"
+	 identify="true"
+	 name="Gas Pipelines"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Gas_Pipelines.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="6"
+	 styles="default"
+	 identify="true"
+	 name="Household Energy Expenditure"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Household_Energy_Expenditure.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Risks, Hazards, and Stressors">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="4"
+	 styles="default"
+	 identify="true"
+	 name="Documented Forest Fires (1970-2008)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Documented_Forest_Fires_(1970-2008).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="3"
+	 styles="default"
+	 identify="true"
+	 name="Landslides"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Landslides.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="2"
+	 styles="default"
+	 identify="true"
+	 name="Hurricane Tracks 1950-2005"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Hurricane_Tracks_1950-2005.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="1"
+	 styles="default"
+	 identify="true"
+	 name="Floodplains"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Floodplains.png"/>
+    </wmsSubgroup>
+  </wmsGroup>
+  <wmsGroup gid="G05" name="Economic" label="Economic">
+    <wmsSubgroup label="Income">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="33"
+	 styles="default"
+	 identify="true"
+	 name="Percentage of Population in Poverty (all ages)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percentage_of_Population_in_Poverty_(all_ages).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="32"
+	 styles="default"
+	 identify="true"
+	 name="Median Household Income"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="31"
+	 styles="default"
+	 identify="true"
+	 name="Median Household Income as a Percentage of US Median Household Income"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_US_Median_Household_Income.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="30"
+	 styles="default"
+	 identify="true"
+	 name="Median Household Income as a Percentage of North Carolina Median Household Income"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_North_Carolina_Median_Household_Income.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Total Employment">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="28"
+	 styles="default"
+	 identify="true"
+	 name="Change in Employment Percent (1990-2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Change_in_Employment_Percent_(1990-2010).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="27"
+	 styles="default"
+	 identify="true"
+	 name="Total Employment (2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Employment_(2010).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="26"
+	 styles="default"
+	 identify="true"
+	 name="Regional Employment Percent NC"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Regional_Employment_Percent_NC.png"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Employment Sectors">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="24"
+	 styles="default"
+	 identify="true"
+	 name="Tourism Spending per 10,000 People"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Spending_per_10,000_People.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="23"
+	 styles="default"
+	 identify="true"
+	 name="Tourism Employment as a Percentage of Total Employment"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Employment_as_a_Percentage_of_Total_Employment.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="22"
+	 styles="default"
+	 identify="true"
+	 name="Tourism Employment"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Employment.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="21"
+	 styles="default"
+	 identify="true"
+	 name="Small Establishment (Firms with less than 500 Employees) as a Percentage of Total Employment"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Small_Establishment_(Firms_with_less_than_500_Employees)_as_a_Percentage_of_Total_Employment.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="20"
+	 styles="default"
+	 identify="true"
+	 name="Change in LQ (1990-2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Change_in_LQ_(1990-2010).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="19"
+	 styles="default"
+	 identify="true"
+	 name="Location Quotient (2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Location_Quotient_(2010).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="18"
+	 styles="default"
+	 identify="true"
+	 name="Large Establishment (Firms with more than 500 Employees) as a Percentage of Total Employment"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Large_Establishment_(Firms_with_more_than_500_Employees)_as_a_Percentage_of_Total_Employment.png"/>
+      <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="17"
+	 styles="default"
+	 identify="true"
+	 name="Number of Large Establishments (Firms with 500 Employees)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Number_of_Large_Establishments_(Firms_with_500_Employees)_by_County.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="16"
+	 styles="default"
+	 identify="true"
+	 name="Percentage of Businesses with less than 10 Employees"
+	 legend="needs legend"/>
+    </wmsSubgroup>
+    <wmsSubgroup label="Agriculture">
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="14"
+	 styles="default"
+	 identify="true"
+	 name="Total Farm Gate Receipts (2007)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farm_Gate_Receipts_(2007).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="13"
+	 styles="default"
+	 identify="true"
+	 name="Total Farms (2007)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2007).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="12"
+	 styles="default"
+	 identify="true"
+	 name="Total Farms (2002)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2002).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="11"
+	 styles="default"
+	 identify="true"
+	 name="Total Farms (1997)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(1997).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="10"
+	 styles="default"
+	 identify="true"
+	 name="Total Family Owned Farms (2007)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2007).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="9"
+	 styles="default"
+	 identify="true"
+	 name="Total Family Owned Farms (2002)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2002).png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="8"
+	 styles="default"
+	 identify="true"
+	 name="Total Family Owned Farms (1997)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(1997).png"/>
+      <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="7"
+	 styles="default"
+	 identify="true"
+	 name="Percent Family Owned Farms 2007"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percent_Family_Owned_Farms_2007.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="6"
+	 styles="default"
+	 identify="true"
+	 name="Percent Family Owned Farms 2002"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percent_Family_Owned_Farms_2002.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="5"
+	 styles="default"
+	 identify="true"
+	 name="Percent Family Owned Farms 1997"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percent_Family_Owned_Farms_1997.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="4"
+	 styles="default"
+	 identify="true"
+	 name="Average Farm Value 2007"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Value_2007.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="3"
+	 styles="default"
+	 identify="true"
+	 name="Average Farm Size 2002"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Size_2002.png"/>
+	  <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="2"
+	 styles="default"
+	 identify="true"
+	 name="Average Farm Size 2007"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Size_2007.png"/>
+      <wmsLayer
+	 lid="BAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="1"
+	 styles="default"
+	 identify="true"
+	 name="Average Farm Size 1997"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Size_1997.png"/>
     </wmsSubgroup>
   </wmsGroup>
 
@@ -112,9 +1188,9 @@
     <tool name="Phenograph" label="Graph NDVI" helpText = "Click the map to see NDVI for the point. Or, enter coordinates and click Make Graph."/>
     <tool name="ShareMap" label="Share this Map" helpText = "Copy the URL below to share this map with someone else."/>
   </tools>
-  <links>
+ <!--  <links>
     <link name= "forwarn.forestthreats.org" url= "http://forwarn.forestthreats.org/"/>
     <link name="Data Disclaimer" url= "http://rain.nemac.org/~derek/fswms/html/view/assets/disclaimer.htm"/>
     <link name="FCAV Users Guide" url= "http://rain.nemac.org/~derek/fswms/html/view/assets/FCAV_Users_Guide_4.2.2012.pdf"/>
-  </links>
+  </links> -->
 </config>
