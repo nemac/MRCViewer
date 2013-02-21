@@ -220,7 +220,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Avg. Annual Maximum Temperature, 1971-2000"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg.%20Annual%20Maximum%20Temperature,%201971-2000.png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg._Annual_Maximum_Temperature,_1971-2000.png"/>
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
@@ -384,7 +384,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Forest Around Forest"
-	 legend="needs legend"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Percent_Forest_Around_Forest.png"/>
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
@@ -1034,7 +1034,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percentage of Businesses with less than 10 Employees"
-	 legend="needs legend"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percentage_of_Businesses_with_10_Employees.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Agriculture">
 	  <wmsLayer
@@ -1056,7 +1056,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farms (2007)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2007).png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farms_(2007).png"/>
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
@@ -1066,7 +1066,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farms (2002)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2002).png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farms_(2002).png"/>
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
@@ -1076,7 +1076,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farms (1997)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(1997).png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farms_(1997).png"/>
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
@@ -1146,7 +1146,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Average Farm Value 2007"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Value_2007.png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Value_2007_2.png"/>
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
