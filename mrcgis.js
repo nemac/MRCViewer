@@ -1355,6 +1355,10 @@
     //
     function createWMSGetFeatureInfoRequestURL(serviceUrl, layers, srs, x, y) {
         var extent = app.map.getExtent();
+		extent = extent.transform(new OpenLayers.Projection("EPSG:900913"), new OpenLayers.Projection("EPSG:4326"));
+		//var lonlat = lonlat.transform(new OpenLayers.Projection("EPSG:900913"), new OpenLayers.Projection("EPSG:4326"));
+        //OpenLayers.Util.getElement("latLonTracker").innerHTML = "Lat: " + sprintf("%.5f", lonlat.lat) + " Lon: " + sprintf("%.5f", lonlat.lon) + "";		
+		
         return Mustache.render(
             (''
              + serviceUrl
@@ -1465,15 +1469,16 @@
                             url: requestUrl,
                             dataType: "xml",
                             success: function(response) {
-                                var $gml = $(response);
-                                // For each layer that this request was for, parse the GML for the results
-                                // for that layer, and populate the corresponding result in the popup
-                                // created above.
-                                $.each(service.layers, function () {
-                                    var result = getLayerResultsFromGML($gml, this);
-                                    $('#identify_results_for_'+this+' td.layer-results').text(result);
-                                });
-                            },
+								alert(response);
+                                // var $gml = $(response);
+                                // // For each layer that this request was for, parse the GML for the results
+                                // // for that layer, and populate the corresponding result in the popup
+                                // // created above.
+                                // $.each(service.layers, function () {
+                                    // var result = getLayerResultsFromGML($gml, this);
+                                    // $('#identify_results_for_'+this+' td.layer-results').text(result);
+                                // });
+							},
                             error: function(jqXHR, textStatus, errorThrown) {
                                 console.log('got error');
                                 alert(textStatus);
