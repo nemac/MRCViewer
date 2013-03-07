@@ -38,7 +38,7 @@
      selected="true"
 	 lid="AAB"
 	 visible="true"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="6"
 	 styles="default"
@@ -48,7 +48,7 @@
 	  <wmsLayer
      lid="AAB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="4"
 	 styles="default"
@@ -58,7 +58,7 @@
       <wmsLayer
 	 lid="AAC"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="3"
 	 styles="default"
@@ -68,7 +68,7 @@
 	  <wmsLayer
 	 lid="AAD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="2"
 	 styles="default"
@@ -77,7 +77,7 @@
 	  <wmsLayer
 	 lid="AAE"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
@@ -90,7 +90,7 @@
 	  <wmsLayer
 	 lid="BAA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="37"
 	 styles="default"
@@ -100,7 +100,7 @@
 	  <wmsLayer
 	 lid="BAB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="36"
 	 styles="default"
@@ -110,7 +110,7 @@
 	  <wmsLayer
 	 lid="BAC"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="35"
 	 styles="default"
@@ -122,7 +122,7 @@
 	  <wmsLayer
 	 lid="BAD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="33"
 	 styles="default"
@@ -132,7 +132,7 @@
 	  <wmsLayer
 	 lid="BAE"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="32"
 	 styles="default"
@@ -142,7 +142,7 @@
 	  <wmsLayer
 	 lid="BAF"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="31"
 	 styles="default"
@@ -152,7 +152,7 @@
 	  <wmsLayer
 	 lid="BAG"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="30"
 	 styles="default"
@@ -162,7 +162,7 @@
 	  <wmsLayer
 	 lid="BAH"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="29"
 	 styles="default"
@@ -172,7 +172,7 @@
 	  <wmsLayer
 	 lid="BAI"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="28"
 	 styles="default"
@@ -182,7 +182,7 @@
 	  <wmsLayer
 	 lid="BAJ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="27"
 	 styles="default"
@@ -192,7 +192,7 @@
 	  <wmsLayer
 	 lid="BAK"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="26"
 	 styles="default"
@@ -202,7 +202,7 @@
 	  <wmsLayer
 	 lid="BAL"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="25"
 	 styles="default"
@@ -214,7 +214,7 @@
 	  <wmsLayer
 	 lid="BAM"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="23"
 	 styles="default"
@@ -224,7 +224,7 @@
 	  <wmsLayer
 	 lid="BHA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="40"
 	 styles="default"
@@ -234,7 +234,7 @@
 	  <wmsLayer
 	 lid="BIA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="39"
 	 styles="default"
@@ -244,7 +244,7 @@
 	  <wmsLayer
 	 lid="BAN"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="22"
 	 styles="default"
@@ -254,7 +254,7 @@
 	  <wmsLayer
 	 lid="BAO"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="21"
 	 styles="default"
@@ -266,7 +266,7 @@
 	  <wmsLayer
 	 lid="BAP"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="18"
 	 styles="default"
@@ -276,7 +276,7 @@
 	  <wmsLayer
 	 lid="BAQ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="17"
 	 styles="default"
@@ -286,7 +286,7 @@
 	  <wmsLayer
 	 lid="BAR"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="16"
 	 styles="default"
@@ -296,7 +296,7 @@
 	  <wmsLayer
 	 lid="BAS"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="15"
 	 styles="default"
@@ -308,7 +308,7 @@
       <wmsLayer
 	 lid="BAT"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="13"
 	 styles="default"
@@ -318,7 +318,7 @@
 	  <wmsLayer
 	 lid="BAU"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="12"
 	 styles="default"
@@ -328,7 +328,7 @@
 	  <wmsLayer
 	 lid="BAV"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="11"
 	 styles="default"
@@ -338,7 +338,7 @@
 	  <wmsLayer
 	 lid="BAW"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="10"
 	 styles="default"
@@ -348,7 +348,7 @@
 	  <wmsLayer
 	 lid="BAX"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="9"
 	 styles="default"
@@ -358,7 +358,7 @@
 	  <wmsLayer
 	 lid="BAY"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="8"
 	 styles="default"
@@ -368,7 +368,7 @@
 	  <wmsLayer
 	 lid="BAZ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="7"
 	 styles="default"
@@ -378,7 +378,7 @@
 	  <wmsLayer
 	 lid="BBA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="6"
 	 styles="default"
@@ -388,7 +388,7 @@
 	  <wmsLayer
 	 lid="BCA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="5"
 	 styles="default"
@@ -398,7 +398,7 @@
 	  <wmsLayer
 	 lid="BDA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="4"
 	 styles="default"
@@ -408,7 +408,7 @@
 	  <wmsLayer
 	 lid="BEA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="3"
 	 styles="default"
@@ -418,7 +418,7 @@
 	  <wmsLayer
 	 lid="BFA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="2"
 	 styles="default"
@@ -428,7 +428,7 @@
 	  <wmsLayer
 	 lid="BGA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Natural/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
@@ -442,7 +442,7 @@
       <wmsLayer
 	 lid="CAA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="16"
 	 styles="default"
@@ -452,7 +452,7 @@
 	  <wmsLayer
 	 lid="CAB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="15"
 	 styles="default"
@@ -462,7 +462,7 @@
 	  <wmsLayer
 	 lid="CAC"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="14"
 	 styles="default"
@@ -472,7 +472,7 @@
 	  <wmsLayer
 	 lid="CAD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="13"
 	 styles="default"
@@ -482,7 +482,7 @@
 	  <wmsLayer
 	 lid="CAE"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="12"
 	 styles="default"
@@ -492,7 +492,7 @@
 	  <wmsLayer
 	 lid="CAF"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="11"
 	 styles="default"
@@ -504,7 +504,7 @@
       <wmsLayer
 	 lid="CAG"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="9"
 	 styles="default"
@@ -514,7 +514,7 @@
 	  <wmsLayer
 	 lid="CAH"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="8"
 	 styles="default"
@@ -524,7 +524,7 @@
 	  <wmsLayer
 	 lid="CAI"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="7"
 	 styles="default"
@@ -534,7 +534,7 @@
 	  <wmsLayer
 	 lid="CAJ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="6"
 	 styles="default"
@@ -546,7 +546,7 @@
       <wmsLayer
 	 lid="CAK"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="4"
 	 styles="default"
@@ -556,7 +556,7 @@
 	  <wmsLayer
 	 lid="CAL"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="3"
 	 styles="default"
@@ -568,7 +568,7 @@
       <wmsLayer
 	 lid="CAM"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Human/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
@@ -582,7 +582,7 @@
 	  <wmsLayer
 	 lid="DAA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="34"
 	 styles="default"
@@ -592,7 +592,7 @@
 	  <wmsLayer
 	 lid="DAB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="33"
 	 styles="default"
@@ -602,7 +602,7 @@
 	  <wmsLayer
 	 lid="DAD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="31"
 	 styles="default"
@@ -612,7 +612,7 @@
 	  <wmsLayer
 	 lid="DAE"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="30"
 	 styles="default"
@@ -622,7 +622,7 @@
 	  <wmsLayer
 	 lid="DAF"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="29"
 	 styles="default"
@@ -632,7 +632,7 @@
 	  <wmsLayer
 	 lid="DAG"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="28"
 	 styles="default"
@@ -642,7 +642,7 @@
 	  <wmsLayer
 	 lid="DAH"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="27"
 	 styles="default"
@@ -652,7 +652,7 @@
 	  <wmsLayer
 	 lid="DAI"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="26"
 	 styles="default"
@@ -662,7 +662,7 @@
 	  <wmsLayer
 	 lid="DAJ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="25"
 	 styles="default"
@@ -672,7 +672,7 @@
 	  <wmsLayer
 	 lid="DAK"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="24"
 	 styles="default"
@@ -682,7 +682,7 @@
 	  <wmsLayer
 	 lid="DAL"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="23"
 	 styles="default"
@@ -692,7 +692,7 @@
 	  <wmsLayer
 	 lid="DAM"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="22"
 	 styles="default"
@@ -704,7 +704,7 @@
 	  <wmsLayer
 	 lid="DAN"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="20"
 	 styles="default"
@@ -714,7 +714,7 @@
 	  <wmsLayer
 	 lid="DAO"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="19"
 	 styles="default"
@@ -724,7 +724,7 @@
 	  <wmsLayer
 	 lid="DAP"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="18"
 	 styles="default"
@@ -734,7 +734,7 @@
 	  <wmsLayer
 	 lid="DAQ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="17"
 	 styles="default"
@@ -744,7 +744,7 @@
 	  <wmsLayer
 	 lid="DAR"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="16"
 	 styles="default"
@@ -756,7 +756,7 @@
 	  <wmsLayer
 	 lid="DAS"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="14"
 	 styles="default"
@@ -766,7 +766,7 @@
 	  <wmsLayer
 	 lid="DAT"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="13"
 	 styles="default"
@@ -776,7 +776,7 @@
 	  <wmsLayer
 	 lid="DAU"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="12"
 	 styles="default"
@@ -786,7 +786,7 @@
 	  <wmsLayer
 	 lid="DAV"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="11"
 	 styles="default"
@@ -796,7 +796,7 @@
 	  <wmsLayer
 	 lid="DAW"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="10"
 	 styles="default"
@@ -808,7 +808,7 @@
 	  <wmsLayer
 	 lid="DAX"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="8"
 	 styles="default"
@@ -818,7 +818,7 @@
 	  <wmsLayer
 	 lid="DAY"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="7"
 	 styles="default"
@@ -828,7 +828,7 @@
 	  <wmsLayer
 	 lid="DAZ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="6"
 	 styles="default"
@@ -840,7 +840,7 @@
 	  <wmsLayer
 	 lid="DBA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="4"
 	 styles="default"
@@ -850,7 +850,7 @@
 	  <wmsLayer
 	 lid="DBB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="3"
 	 styles="default"
@@ -860,7 +860,7 @@
 	  <wmsLayer
 	 lid="DBC"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="2"
 	 styles="default"
@@ -870,7 +870,7 @@
 	  <wmsLayer
 	 lid="DBD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Built/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
@@ -884,7 +884,7 @@
 	  <wmsLayer
 	 lid="EAA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="33"
 	 styles="default"
@@ -894,7 +894,7 @@
 	  <wmsLayer
 	 lid="EAB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="32"
 	 styles="default"
@@ -904,7 +904,7 @@
 	  <wmsLayer
 	 lid="EAC"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="31"
 	 styles="default"
@@ -914,7 +914,7 @@
 	  <wmsLayer
 	 lid="EAD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="30"
 	 styles="default"
@@ -926,7 +926,7 @@
 	  <wmsLayer
 	 lid="EAE"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="28"
 	 styles="default"
@@ -936,7 +936,7 @@
 	  <wmsLayer
 	 lid="EAF"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="27"
 	 styles="default"
@@ -946,7 +946,7 @@
 	  <wmsLayer
 	 lid="EAG"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="26"
 	 styles="default"
@@ -958,7 +958,7 @@
 	  <wmsLayer
 	 lid="EAH"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="24"
 	 styles="default"
@@ -968,7 +968,7 @@
 	  <wmsLayer
 	 lid="EAI"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="23"
 	 styles="default"
@@ -978,7 +978,7 @@
 	  <wmsLayer
 	 lid="EAJ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="22"
 	 styles="default"
@@ -988,7 +988,7 @@
 	  <wmsLayer
 	 lid="EAK"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="21"
 	 styles="default"
@@ -998,7 +998,7 @@
 	  <wmsLayer
 	 lid="EAL"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="20"
 	 styles="default"
@@ -1008,7 +1008,7 @@
 	  <wmsLayer
 	 lid="EAM"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="19"
 	 styles="default"
@@ -1018,7 +1018,7 @@
 	  <wmsLayer
 	 lid="EAN"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="18"
 	 styles="default"
@@ -1028,7 +1028,7 @@
       <wmsLayer
 	 lid="EAO"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="17"
 	 styles="default"
@@ -1038,7 +1038,7 @@
 	  <wmsLayer
 	 lid="EAP"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="16"
 	 styles="default"
@@ -1050,7 +1050,7 @@
 	  <wmsLayer
 	 lid="EAQ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="14"
 	 styles="default"
@@ -1060,7 +1060,7 @@
 	  <wmsLayer
 	 lid="EAR"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="13"
 	 styles="default"
@@ -1070,7 +1070,7 @@
 	  <wmsLayer
 	 lid="EAS"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="12"
 	 styles="default"
@@ -1080,7 +1080,7 @@
 	  <wmsLayer
 	 lid="EAT"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="11"
 	 styles="default"
@@ -1090,7 +1090,7 @@
 	  <wmsLayer
 	 lid="EAU"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="10"
 	 styles="default"
@@ -1100,7 +1100,7 @@
 	  <wmsLayer
 	 lid="EAV"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="9"
 	 styles="default"
@@ -1110,7 +1110,7 @@
 	  <wmsLayer
 	 lid="EAW"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="8"
 	 styles="default"
@@ -1120,7 +1120,7 @@
       <wmsLayer
 	 lid="EAX"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="7"
 	 styles="default"
@@ -1130,7 +1130,7 @@
 	  <wmsLayer
 	 lid="EAY"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="6"
 	 styles="default"
@@ -1140,7 +1140,7 @@
 	  <wmsLayer
 	 lid="EAZ"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="5"
 	 styles="default"
@@ -1150,7 +1150,7 @@
 	  <wmsLayer
 	 lid="EBA"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="4"
 	 styles="default"
@@ -1160,7 +1160,7 @@
 	  <wmsLayer
 	 lid="EBB"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="3"
 	 styles="default"
@@ -1170,7 +1170,7 @@
 	  <wmsLayer
 	 lid="EBC"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="2"
 	 styles="default"
@@ -1180,7 +1180,7 @@
       <wmsLayer
 	 lid="EBD"
 	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
+	 url="proxy/http/hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
 	 layers="1"
 	 styles="default"
