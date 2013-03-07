@@ -336,3 +336,8 @@ textarea.shareMapUrl {
 #customZoomOut {
     top: 25px;
 }
+
+table#identify_results {
+   height: 200px;
+   width: 400px;
+}

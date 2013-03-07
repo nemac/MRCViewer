@@ -1,6 +1,7 @@
 (function ($) {
     "use strict";
 
+	OpenLayers.ProxyHost = "proxy.cgi?url=";
     var EventEmitter = window.EventEmitter,
         mrcgis = {},
         activeBtn = [],
@@ -1465,8 +1466,7 @@
                     null,                               // anchor
                     true,                               // closeBox
                     null                                // closeBoxCallback
-                ));
-                
+                ),true);
                 // Now loop over each item in the `services` object, generating the GetFeatureInfo request for it
                 for (urlsrs in services) {
                     (function () {
@@ -1476,17 +1476,17 @@
                             requestUrl = createWMSGetFeatureInfoRequestURL(service.url, service.layers, service.srs, e.xy.x, e.xy.y);
                         $.ajax({
                             url: requestUrl,
-                            dataType: "xml",
+                            dataType: "text",
                             success: function(response) {
-								alert(response);
-                                // var $gml = $(response);
-                                // // For each layer that this request was for, parse the GML for the results
-                                // // for that layer, and populate the corresponding result in the popup
-                                // // created above.
-                                // $.each(service.layers, function () {
-                                    // var result = getLayerResultsFromGML($gml, this);
-                                    // $('#identify_results_for_'+this+' td.layer-results').text(result);
-                                // });
+								//alert(response);
+                                var $xml = $(response);
+                                // For each layer that this request was for, parse the GML for the results
+                                // for that layer, and populate the corresponding result in the popup
+                                // created above.
+                                $.each(service.layers, function () {
+                                    var result = getLayerResultsFromTextXML($xml, this);
+                                    $('#identify_results_for_'+this+' td.layer-results').text(result);
+                                });
 							},
                             error: function(jqXHR, textStatus, errorThrown) {
                                 console.log('got error');
@@ -1499,23 +1499,34 @@
         );
     }
 
-    function getLayerResultsFromGML($gml, layerName) {
-        var i,
-            children = $gml.find(layerName + '_feature').first().children();
-        // Scan the children of the first <layerName_feature> element, looking for the first
-        // child which is an element whose name is something other than `gml:boundedBy`; take
-        // the text content of that child as the result for this layer.
-        for (i=0; i<children.length; ++i) {
-            if (children[i].nodeName !== 'gml:boundedBy') {
-				if ( $.browser.msie ) { //jdm: IE doesn't have textContent on children[i], but Chrome and FireFox do
-					return children[i].text;
-				} else {
-					return children[i].textContent;
-				}			
-            }
-        }
-        return undefined;
+    function getLayerResultsFromTextXML($xml, layerName) {
+		var fields = $xml.find( "FIELDS" );
+		var i;
+		var returnVal="";
+        for (i=0; i<fields[0].attributes.length; ++i) {
+			var field = fields[0].attributes[i];
+			returnVal = returnVal + field.name + " : " + field.textContent+"\n";
+		}		
+        return returnVal;
     }
+
+    // function getLayerResultsFromGML($gml, layerName) {
+        // var i,
+            // children = $gml.find(layerName + '_feature').first().children();
+        // // Scan the children of the first <layerName_feature> element, looking for the first
+        // // child which is an element whose name is something other than `gml:boundedBy`; take
+        // // the text content of that child as the result for this layer.
+        // for (i=0; i<children.length; ++i) {
+            // if (children[i].nodeName !== 'gml:boundedBy') {
+				// if ( $.browser.msie ) { //jdm: IE doesn't have textContent on children[i], but Chrome and FireFox do
+					// return children[i].text;
+				// } else {
+					// return children[i].textContent;
+				// }			
+            // }
+        // }
+        // return undefined;
+    // }
 
     var lastPopup;
 
