@@ -5,52 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=8" >
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <!--<script type="text/javascript" src="libs/jquery18/jquery-1.8.2.js"></script>-->
-    <script type="text/javascript" src="libs/multigraph/multigraph-min-4.0.js"></script>
-    <!--
-        NOTE:
-            Multigraph contains a copy of jQuery 1.8.  To make use of that copy of jQuery,
-            instead of loading our own separate copy, replace the line
-                <script type="text/javascript" src="libs/jquery17/jquery-1.7.2.js"></script>
-            below with the following instead:
-                <script type="text/javascript">$ = window.multigraph.jQuery;</script>
-            However, at the moment, doing this turns up errors in the jquery-ui code
-            that we are loading below.  We need to resolve those errors before we can
-            do this.  Maybe upgrade to a later version of jquery-ui???
 
-            See https://github.com/nemac/ol-fcav/issues/30
-    -->
-    <script type="text/javascript" src="libs/jquery17/jquery-1.7.2.js"></script>
-    <script type="text/javascript" src="libs/OpenLayers212/lib/OpenLayers.js"></script>
-    <script src="libs/OpenLayers212/lib/OpenLayers/Control/ScaleBar.js"></script>
-    <script type="text/javascript" src="libs/mustache/mustache.js"></script>
-    <script type="text/javascript" src="libs/sprintf/sprintf-0.7-beta1.js"></script>
-    <script type="text/javascript" src="eventEmitter.js"></script>
-    <script type="text/javascript" src="listAccordion.js"></script>
-    <script type="text/javascript" src="findArea.js"></script>
-    <script type="text/javascript" src="areas.js"></script>
-    <script type="text/javascript" src="mrcgis.js"></script>
-    <link type="text/css" rel="stylesheet" href="libs/jquery18/themes/base/jquery.ui.all.css" />
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.core.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.widget.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.mouse.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.draggable.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.resizable.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.accordion.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.dialog.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.position.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.autocomplete.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.ui.slider.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.effects.core.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.effects.scale.js"></script>
-    <script type="text/javascript" src="libs/jquery18/ui/jquery.effects.fold.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/libs/multigraph/multigraph-min-4.0.js"></script>
+    <script type="text/javascript">$ = window.multigraph.jQuery;</script>
+    <script type="text/javascript" src="libs/ol-fcav/ajaxtransport.js"></script>
+    <script type="text/javascript">
+      fixJQueryAjaxTransport(jQuery);
+    </script>
+    <script type="text/javascript" src="libs/ol-fcav/libs/OpenLayers212/lib/OpenLayers.js"></script>
+    <script src="libs/ol-fcav/libs/OpenLayers212/lib/OpenLayers/Control/ScaleBar.js"></script>
+
+    <link type="text/css" rel="stylesheet"
+          href="libs/ol-fcav/libs/jquery-ui/smoothness/jquery-ui-1.10.1.custom/css/smoothness/jquery-ui-1.10.1.custom.min.css"/>
+    <script type="text/javascript"
+            src="libs/ol-fcav/libs/jquery-ui/smoothness/jquery-ui-1.10.1.custom/js/jquery-ui-1.10.1.custom.min.js"></script>
+
+    <script type="text/javascript" src="libs/ol-fcav/libs/mustache/mustache.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/libs/sprintf/sprintf-0.7-beta1.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/eventEmitter.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/listAccordion.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/findArea.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/areas.js"></script>
+    <script type="text/javascript" src="libs/ol-fcav/fcav.js"></script>
+
     <link rel="stylesheet" type="text/css" href="mrcgis.css" />
 
     <script type="text/javascript">
       $('document').ready(function() {
-          mrcgis.init();
+          fcav.init("config/mrc_config.xml","EPSG:4326");
       });
     </script>
+
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="ie.css" />
+    <![endif]-->
+
+  </head>
 
     <!--[if IE]>
         <link rel="stylesheet" type="text/css" href="ie.css" />
