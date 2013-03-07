@@ -1,0 +1,3 @@
+[submodule "libs/ol-fcav"]
+	path = libs/ol-fcav
+	url = https://github.com/nemac/ol-fcav
