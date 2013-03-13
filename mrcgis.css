@@ -9,20 +9,27 @@ body, td, th {
 	font-size:11pt;
 }
 
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
 #titleBar {
     z-index:5;
-    background:#445168;
+    background:#665f45;
 	padding:5px;
     display: block;
     position: relative;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
 	box-shadow:0px 2px 3px #333;
 }      
 
 #titlebar h2 {
-	color:#e5eaf4;
-	font-weight:normal;
-	letter-spacing:0px;
+	color:#e6e4d8;
+	font-weight:bold;
+	font-style:italic;
+	letter-spacing:-1px;
 	margin: 0 auto 0 auto;
 	font-size:1.25em;
 }
@@ -55,9 +62,8 @@ body, td, th {
   
 #header {
     z-index:10002;
-    background:#ddd;
+    background:#dfddd0;
     display: block;
-	position: relative;
 	height:35px;
 	padding-left:3px;
 	box-shadow:3px 1px 5px #333;
@@ -66,6 +72,8 @@ body, td, th {
 
 
 #mapToolsDialog {
+   position: relative;
+   z-index: 10003;
    padding: 0px;
 }
 
@@ -74,7 +82,7 @@ body, td, th {
     height:100%;
     background:#FFFFFF;
     font-size:.80em; 
-/*
+	/*
     float:right;
     width:auto;
     z-index:10001;
@@ -96,6 +104,8 @@ body, td, th {
 
 
 #layerPickerDialog {
+  position: relative;
+  z-index: 10004;
   padding: 0px;
 }
 
@@ -130,14 +140,208 @@ body, td, th {
     font-size: 9px;
 }
 #map {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+/*
+  background: #ff0000;
+  border: 10px solid green;
+*/
+/*
    border: 1px solid black;
    position: absolute;
    bottom: 0px;
    top: 0px;
    left: 0px;
    right: 0px;
+*/
 }
+
+
+#identify_results td.layer-results {
+   width: 200px;
+}
+#identify_results td.layer-label {
+   font-weight: bold;
+   text-align: right;
+}
+
 
 .layerPropertiesIcon {
    margin-left: 5px;
+}
+
+.layer-properties-dialog {
+/*   width:auto; */
+}
+
+.splashScreenStyle {
+    opacity: 0.9 !important;; 
+}
+
+.layer-properties-dialog td {
+  white-space: nowrap;
+}
+
+.layer-properties-dialog .transparency-text {
+   border-color:transparent;
+}
+
+.layer-properties-dialog .transparency-slider {
+   width: 120px;
+   margin-left: 8px;
+   margin-right: 5px;
+}
+
+#fcavMultigraphMessage {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.ajax-loader-image {
+    width: 16px;
+    height: 16px;
+    display: inline;
+}
+
+textarea.shareMapUrl {
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+
+.ui-accordion .ui-accordion-content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nonselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.olControlScaleBar {
+    bottom: 30px;
+    left: 15px;
+    font-family: sans-serif;
+    color: #696969;
+}
+
+.olControlScaleBarBar {
+    height: 11px;
+    top: 12px;
+    background-color: #696969;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+
+.olControlScaleBarBarAlt {
+    height: 11px;
+    top: 12px;
+    background-color: #696969;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+}
+
+.olControlScaleBarMarkerMajor {
+    height: 13px;
+    width: 13px;
+    top: 12px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 5000;
+}
+
+.olControlScaleBarMarkerMinor {
+    height: 13px;
+    width: 13px;
+    top: 12px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    z-index: 5000;
+}
+
+.olControlScaleBarNumbersBox {
+    height: 13px;
+    width: 40px;
+    top: 24px;
+    font-size: 9px;
+}
+
+.olControlScaleBarLabelBox {
+    height: 15px;
+    top: -2px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+.olControlScaleBarLabelBoxSingleLine {
+    height: 15px;
+    width: 35px;
+    top: 0px;
+    left: 10px;
+    font-size: 13px;
+}
+
+#footer {
+    z-index:10003;
+    background:#dfddd0;
+    display: block;
+	height:30px;
+	padding-left:3px;
+	box-shadow:3px 1px 5px #333;
+	text-align:center;
+}
+#links
+{
+    float: left;
+}
+#latLonTracker
+{
+    float: right;
+	overflow:hidden;
+    margin-top: 0;
+    margin-bottom: 0;	
+}
+
+.ui-autocomplete
+ {
+	position:absolute;
+	cursor:default;
+	z-index:4000 !important
+}
+
+#customZoom {
+    z-index: 100023;
+    position:absolute;
+    right:100px;
+}
+#customZoom a {
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background: #696969;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#customZoom a:hover {
+    background: #C0C0C0;
+}
+#customZoomOut {
+    top: 25px;
+}
+
+#identify_results, td {
+	border-collapse: collapse; 
+	border: .05em solid #C0C0C0; 
 }
