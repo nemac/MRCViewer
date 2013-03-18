@@ -46,7 +46,7 @@
 	 name="Counties"
 	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/Counties.png"/>
 	  <wmsLayer
-     lid="AAB"
+     lid="AAF"
 	 visible="false"
 	 url="http://hail.nemac.org/ArcGIS/services/MRC/Jurisdictions/MapServer/WMSServer?TRANSPARENT=true"
 	 srs="EPSG:4326"
@@ -54,7 +54,7 @@
 	 styles="default"
 	 identify="false"
 	 name="County Labels"
-	 legend=""/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/County_labels.png"/>
       <wmsLayer
 	 lid="AAC"
 	 visible="false"
@@ -976,16 +976,6 @@
 	 name="Tourism Employment as a Percentage of Total Employment"
 	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Employment_as_a_Percentage_of_Total_Employment.png"/>
 	  <wmsLayer
-	 lid="EAJ"
-	 visible="false"
-	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
-	 srs="EPSG:4326"
-	 layers="22"
-	 styles="default"
-	 identify="true"
-	 name="Tourism Employment"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Employment.png"/>
-	  <wmsLayer
 	 lid="EAK"
 	 visible="false"
 	 url="http://hail.nemac.org/ArcGIS/services/MRC/Economic/MapServer/WMSServer?TRANSPARENT=true"
@@ -1024,7 +1014,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Large Establishment (Firms with more than 500 Employees) as a Percentage of Total Employment"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Large_Establishment_(Firms_with_more_than_500_Employees)_as_a_Percentage_of_Total_Employment.png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Large_Establishment_(Firms_with_more_than_500_Employees)_as_a_Percentage_of_Total_Employment3.png"/>
       <wmsLayer
 	 lid="EAO"
 	 visible="false"
