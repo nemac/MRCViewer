@@ -17,18 +17,17 @@ a{
 
 #titleBar {
     z-index:5;
-    background:#665f45;
+    background:#445168;
 	padding:5px;
     display: block;
     position: relative;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 	box-shadow:0px 2px 3px #333;
 }      
 
 #titlebar h2 {
-	color:#e6e4d8;
+	color:#e5eaf4;
 	font-weight:bold;
-	font-style:italic;
 	letter-spacing:-1px;
 	margin: 0 auto 0 auto;
 	font-size:1.25em;
@@ -62,7 +61,7 @@ a{
   
 #header {
     z-index:10002;
-    background:#dfddd0;
+    background:#d0d5df;
     display: block;
 	height:35px;
 	padding-left:3px;
