@@ -519,8 +519,8 @@
 	 layers="8"
 	 styles="default"
 	 identify="true"
-	 name="Physicians per 10,000 People (2007)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Physicians_per_10,000_People_(2007).png"/>
+	 name="Physicians per 10,000 People"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Physicians_per_10000_People.jpg"/>
 	  <wmsLayer
 	 lid="CAI"
 	 visible="false"
@@ -529,8 +529,8 @@
 	 layers="7"
 	 styles="default"
 	 identify="true"
-	 name="Infant Deaths per 1,000 Births (2003-2007 Average)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Infant_Deaths_(2003-07).png"/>
+	 name="Infant Deaths per 1,000 Births"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Infant_Deaths.jpg"/>
 	  <wmsLayer
 	 lid="CAJ"
 	 visible="false"
@@ -539,8 +539,118 @@
 	 layers="6"
 	 styles="default"
 	 identify="true"
-	 name="Child Asthma per 100,000 Children (2007)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Child_Asthma_per_100,000_(2007).png"/>
+	 name="Child Asthma per 100,000 Children"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Child_Asthma.jpg"/>
+	  <wmsLayer
+	 lid="FAI"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="9"
+	 styles="default"
+	 identify="true"
+	 name="Asthma Diagnosis Rate per 100,000 (All Ages, 2011)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/asthma_all.jpg"/>
+	  <wmsLayer
+	 lid="FAJ"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="10"
+	 styles="default"
+	 identify="true"
+	 name="Diabetes Death Rate per 100,000 (2007 - 2011)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Diabetes_deaths.jpg"/>
+	  <wmsLayer
+	 lid="FAK"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="11"
+	 styles="default"
+	 identify="true"
+	 name="Number of Fast-Food Restaurants per 1,000 (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/FF_rests.jpg"/>
+	  <wmsLayer
+	 lid="FAL"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="12"
+	 styles="default"
+	 identify="true"
+	 name="Number of Full-Service Restaurants per 1,000 (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/fullserve_rests.jpg"/>
+	  <wmsLayer
+	 lid="FAM"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="13"
+	 styles="default"
+	 identify="true"
+	 name="Number of Convenience Stores per 1,000 (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/con_stores.jpg"/>
+	  <wmsLayer
+	 lid="FAN"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="14"
+	 styles="default"
+	 identify="true"
+	 name="Number of Grocery Stores per 1,000 (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Groc_stores.jpg"/>
+	  <wmsLayer
+	 lid="FAO"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="15"
+	 styles="default"
+	 identify="true"
+	 name="Registered Nurses per 10,000 Population (2010) "
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Nurses.jpg"/>
+	  <wmsLayer
+	 lid="FAP"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="16"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Children who are Overweight or Obese (Ages 2-4, 2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Child_Obesity.jpg"/>
+	  <wmsLayer
+	 lid="FAQ"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="17"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Adults who are Physically Inactive (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Phys_Inactive_Adults.jpg"/>
+	  <wmsLayer
+	 lid="FAR"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="18"
+	 styles="default"
+	 identify="true"
+	 name="Adults Diagnosed with Diabetes (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Adult_Diabetes.jpg"/>
+	  <wmsLayer
+	 lid="FAS"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="19"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Adults with Obesity (2009)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Adult_Obesity.jpg"/>
     </wmsSubgroup>
     <wmsSubgroup label="Education">
       <wmsLayer
@@ -803,6 +913,46 @@
 	 identify="true"
 	 name="Housing Units per County"
 	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Housing_Units_per_County.png"/>
+	  <wmsLayer
+	 lid="FAA"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="1"
+	 styles="default"
+	 identify="true"
+	 name="Percent Change in Housing Units (2000-2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/housing_unit_change.jpg"/>
+	  <wmsLayer
+	 lid="FAB"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="2"
+	 styles="default"
+	 identify="true"
+	 name="Housing Unit Density, Number per Square Mile(2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/house_density.jpg"/>
+	  <wmsLayer
+	 lid="FAC"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="3"
+	 styles="default"
+	 identify="true"
+	 name="Foreclosure Increases from 2002 - 2012"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/foreclosures.jpg"/>
+	  <wmsLayer
+	 lid="FAD"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="4"
+	 styles="default"
+	 identify="true"
+	 name="Property Tax Rate per $100 Value (2012 - 2013)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/prop_tax.jpg"/>
 	</wmsSubgroup> 
     <wmsSubgroup label="Energy">
 	  <wmsLayer
@@ -900,7 +1050,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Household Income"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income.png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income.jpg"/>
 	  <wmsLayer
 	 lid="EAC"
 	 visible="false"
@@ -910,7 +1060,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Household Income as a Percentage of US Median Household Income"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_US_Median_Household_Income.png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_US_Median_Household_Income.jpg"/>
 	  <wmsLayer
 	 lid="EAD"
 	 visible="false"
@@ -920,7 +1070,47 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Household Income as a Percentage of North Carolina Median Household Income"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_North_Carolina_Median_Household_Income.png"/>
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_North_Carolina_Median_Household_Income.jpg"/>
+	  <wmsLayer
+	 lid="FAE"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="5"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Households Receiving SNAP Benefits (2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/SNAP.jpg"/>
+	  <wmsLayer
+	 lid="FAF"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="6"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Children in Poverty"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/child_poverty.jpg"/>
+	  <wmsLayer
+	 lid="FAG"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="7"
+	 styles="default"
+	 identify="true"
+	 name="Difference in Mean and Median Household Incomes (2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/diff_mean_mid.jpg"/>
+	  <wmsLayer
+	 lid="FAH"
+	 visible="false"
+	 url="http://hail.nemac.org/ArcGIS/services/MRC/New_Vitality_Index_Sept/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="8"
+	 styles="default"
+	 identify="true"
+	 name="Mean Household Income (2010)"
+	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Mean_HHI.jpg"/>
     </wmsSubgroup>
     <wmsSubgroup label="Total Employment">
 	  <wmsLayer
