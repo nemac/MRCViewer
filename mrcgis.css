@@ -98,7 +98,7 @@ Phone Portrait
     }
 
     #footer {
-        font-size: 5.6pt;
+        font-size: 7.6pt;
     }
 }
 
@@ -106,7 +106,11 @@ Phone Portrait
 Phone Landscape
 */
 @media (min-width: 481px) and (max-width: 650px) {
+    #titleBar h2 {
+        text-align: center;
+    }
+
     #footer {
-        font-size: 6pt;
+        font-size: 7.6pt;
     }
 }
