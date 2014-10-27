@@ -1,0 +1,116 @@
+/*
+Custom overrides for Seldon.css.
+*/
+
+/*
+Global Styles
+*/
+
+body, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-size: 11pt;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*
+Header Styles
+*/
+#titleBar {
+    background: #445168;
+    font-family: Arial, Helvetica, sans-serif;
+}      
+
+#titlebar h2 {
+    color: #e5eaf4;
+    font-size: 1.25em;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#header {
+    background: #d0d5df;
+}
+
+/*
+Footer Styels
+*/
+#footer {
+    background: #d0d5df;
+}
+
+/*
+jquery UI overrides
+*/
+.ui-dialog-titlebar,
+.ui-widget-header .ui-dialog-titlebar-close {
+    background: #e5eaf4;
+}
+
+.ui-dialog-titlebar .ui-dialog-title {
+    font-size: 1em;
+}
+
+.ui-accordion .ui-accordion-header {
+    background: #dae4f7;
+}
+
+.ui-accordion .ui-accordion-header-active {
+    background: #fff;
+}
+
+.ui-accordion .ui-accordion-content div h4 {
+    color: #445168;
+}
+
+/*
+Splash Screen Styles
+*/
+.splashScreenStyle {
+    opacity: 1 !important;
+    background: rgb(255, 255, 255);
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0 !important;
+}
+
+.splash-screen-dialog {
+    font-size: 1em;
+    text-align: center;
+}
+
+.splash-screen-dialog a {
+    text-decoration: underline;
+}
+
+/*
+Phone Portrait
+*/
+@media (max-width: 480px) {
+    #titleBar h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    #footer {
+        font-size: 7.6pt;
+    }
+}
+
+/*
+Phone Landscape
+*/
+@media (min-width: 481px) and (max-width: 650px) {
+    #titleBar h2 {
+        text-align: center;
+    }
+
+    #footer {
+        font-size: 7.6pt;
+    }
+}
