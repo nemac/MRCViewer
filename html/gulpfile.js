@@ -8,6 +8,9 @@ gulp.task( 'html', function() {
     gulp.src( './cgi-bin/**' )
         .pipe( gulp.dest( './html/cgi-bin' ) );
 
+    gulp.src( './config/**' )
+        .pipe( gulp.dest( './html/config' ) );
+
     gulp.src( './libs/**' )
         .pipe( gulp.dest( './html/libs' ) );
 
