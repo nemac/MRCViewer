@@ -13,6 +13,9 @@ gulp.task( 'html', function() {
 
     gulp.src( './libs/**' )
         .pipe( gulp.dest( './html/libs' ) );
+	
+	gulp.src( './mrc-legends/**' )
+        .pipe( gulp.dest( './html/mrc-legends' ) );
 
     gulp.src( './icons/**' )
         .pipe( gulp.dest( './html/icons' ) );

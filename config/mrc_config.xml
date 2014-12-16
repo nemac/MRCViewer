@@ -44,7 +44,7 @@
 	 styles="default"
 	 identify="false"
 	 name="Counties"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/Counties.png"/>
+	 legend="mrc-legends/Jurisdictions/Counties.png"/>
 	  <wmsLayer
      lid="AAF"
 	 visible="false"
@@ -54,7 +54,7 @@
 	 styles="default"
 	 identify="false"
 	 name="County Labels"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/County_labels.png"/>
+	 legend="mrc-legends/Jurisdictions/County_labels.png"/>
       <wmsLayer
 	 lid="AAC"
 	 visible="false"
@@ -64,7 +64,7 @@
 	 styles="default"
 	 identify="true"
 	 name="County Seats"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/County_Seats.png"/>
+	 legend="mrc-legends/Jurisdictions/County_Seats.png"/>
 	  <wmsLayer
 	 lid="AAD"
 	 visible="false"
@@ -73,7 +73,7 @@
 	 layers="2"
 	 styles="default"
 	 identify="true"
-	 name="Municipal Boundaries" legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/Municipal_Boundaries.png"/>
+	 name="Municipal Boundaries" legend="mrc-legends/Jurisdictions/Municipal_Boundaries.png"/>
 	  <wmsLayer
 	 lid="AAE"
 	 visible="false"
@@ -82,7 +82,7 @@
 	 layers="1"
 	 styles="default"
 	 identify="true"
-	 name="COGs" legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Jurisdictions/COGs2.png"/>
+	 name="COGs" legend="mrc-legends/Jurisdictions/COGs2.png"/>
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G02" name="Natural" label="Natural">
@@ -96,7 +96,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Hillshading"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Hillshading,_.png"/>
+	 legend="mrc-legends/Natural/Hillshading,_.png"/>
 	  <wmsLayer
 	 lid="BAB"
 	 visible="false"
@@ -106,7 +106,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Elevation, LIDAR 20ft"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Elevation,_LIDAR_20ft.png"/>
+	 legend="mrc-legends/Natural/Elevation,_LIDAR_20ft.png"/>
 	  <wmsLayer
 	 lid="BAC"
 	 visible="false"
@@ -116,7 +116,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Elevation, DEM 150M"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Elevation,_DEM_150M.png"/>
+	 legend="mrc-legends/Natural/Elevation,_DEM_150M.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Geology">
 	  <wmsLayer
@@ -128,7 +128,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Slope, Percent"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Slope,_Percent.png"/>
+	 legend="mrc-legends/Natural/Slope,_Percent.png"/>
 	  <wmsLayer
 	 lid="BAE"
 	 visible="false"
@@ -138,7 +138,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Slope, Percent (3 Class)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Slope,_Percent_3_Class.png"/>
+	 legend="mrc-legends/Natural/Slope,_Percent_3_Class.png"/>
 	  <wmsLayer
 	 lid="BAF"
 	 visible="false"
@@ -148,7 +148,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Fault Lines"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Fault_Lines.png"/>
+	 legend="mrc-legends/Natural/Fault_Lines.png"/>
 	  <wmsLayer
 	 lid="BAG"
 	 visible="false"
@@ -158,7 +158,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Earthquakes 1568-1996"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Earthquakes_1568-1996.png"/>
+	 legend="mrc-legends/Natural/Earthquakes_1568-1996.png"/>
 	  <wmsLayer
 	 lid="BAH"
 	 visible="false"
@@ -168,7 +168,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Dikes"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Dikes.png"/>
+	 legend="mrc-legends/Natural/Dikes.png"/>
 	  <wmsLayer
 	 lid="BAI"
 	 visible="false"
@@ -178,7 +178,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Geology"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Geology.png"/>
+	 legend="mrc-legends/Natural/Geology.png"/>
 	  <wmsLayer
 	 lid="BAJ"
 	 visible="false"
@@ -188,7 +188,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Major Litho-Tectonic Features"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Major_Litho-Tectonic_Features.png"/>
+	 legend="mrc-legends/Natural/Major_Litho-Tectonic_Features.png"/>
 	  <wmsLayer
 	 lid="BAK"
 	 visible="false"
@@ -198,7 +198,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Soil Systems"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Soil_Systems.png"/>
+	 legend="mrc-legends/Natural/Soil_Systems.png"/>
 	  <wmsLayer
 	 lid="BAL"
 	 visible="false"
@@ -208,7 +208,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Soils, General"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Soils,_General.png"/>
+	 legend="mrc-legends/Natural/Soils,_General.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Weather and Climate">
 	  <wmsLayer
@@ -220,7 +220,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Avg. Annual Precipitation 1981-2010"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg._Annual_Precipitation_1981-2010.png"/>
+	 legend="mrc-legends/Natural/Avg._Annual_Precipitation_1981-2010.png"/>
 	  <wmsLayer
 	 lid="BHA"
 	 visible="false"
@@ -230,7 +230,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Seasonal Average Precipitation (March - August) 1981 - 2010"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Seasonal_Average_Precipitation_March-August_1981-2010.png"/>
+	 legend="mrc-legends/Natural/Seasonal_Average_Precipitation_March-August_1981-2010.png"/>
 	  <wmsLayer
 	 lid="BIA"
 	 visible="false"
@@ -240,7 +240,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Seasonal Average Precipitation (September - February) 1981 - 2010"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Seasonal_Average_Precipitation_Sept-Aug_1981-2010.png"/>
+	 legend="mrc-legends/Natural/Seasonal_Average_Precipitation_Sept-Aug_1981-2010.png"/>
 	  <wmsLayer
 	 lid="BAN"
 	 visible="false"
@@ -250,7 +250,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Avg. Annual Maximum Temperature, 1981-2010"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg._Annual_Maximum_Temperature,_1981-2010.png"/>
+	 legend="mrc-legends/Natural/Avg._Annual_Maximum_Temperature,_1981-2010.png"/>
 	  <wmsLayer
 	 lid="BAO"
 	 visible="false"
@@ -260,7 +260,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Avg. Annual Minimum Temperature, 1981-2010"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Avg._Annual_Minimum_Temperature,_1981-2010.png"/>
+	 legend="mrc-legends/Natural/Avg._Annual_Minimum_Temperature,_1981-2010.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Water">
 	  <wmsLayer
@@ -272,7 +272,7 @@
 	 styles="default"
 	 identify="true"
 	 name="2010 Impaired Waters"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/2010_Impaired_Waters.png"/>
+	 legend="mrc-legends/Natural/2010_Impaired_Waters.png"/>
 	  <wmsLayer
 	 lid="BAQ"
 	 visible="false"
@@ -282,7 +282,7 @@
 	 styles="default"
 	 identify="true"
 	 name="2006 Impaired Waters"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/2006_Impaired_Waters.png"/>
+	 legend="mrc-legends/Natural/2006_Impaired_Waters.png"/>
 	  <wmsLayer
 	 lid="BAR"
 	 visible="false"
@@ -292,7 +292,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Watersheds, General"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Watersheds,_General.png"/>
+	 legend="mrc-legends/Natural/Watersheds,_General.png"/>
 	  <wmsLayer
 	 lid="BAS"
 	 visible="false"
@@ -302,7 +302,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Watersheds, Detailed "
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Watersheds,_Detailed.png"/>
+	 legend="mrc-legends/Natural/Watersheds,_Detailed.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Ecosystems">
       <wmsLayer
@@ -314,7 +314,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Threatened Agricultural Land"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Threatened_Agricultural_Land.png"/>
+	 legend="mrc-legends/Natural/Threatened_Agricultural_Land.png"/>
 	  <wmsLayer
 	 lid="BAU"
 	 visible="false"
@@ -324,7 +324,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Forest Threat"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Threat.png"/>
+	 legend="mrc-legends/Natural/Forest_Threat.png"/>
 	  <wmsLayer
 	 lid="BAV"
 	 visible="false"
@@ -334,7 +334,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Viable Agricultural Land"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Viable_Agricultural_Land.png"/>
+	 legend="mrc-legends/Natural/Viable_Agricultural_Land.png"/>
 	  <wmsLayer
 	 lid="BAW"
 	 visible="false"
@@ -344,7 +344,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Important Forest Land"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Important_Forest_Land.png"/>
+	 legend="mrc-legends/Natural/Important_Forest_Land.png"/>
 	  <wmsLayer
 	 lid="BAX"
 	 visible="false"
@@ -354,7 +354,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Open Space and Conservation Lands"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Open_Space_and_Conservation_Lands.png"/>
+	 legend="mrc-legends/Natural/Open_Space_and_Conservation_Lands.png"/>
 	  <wmsLayer
 	 lid="BAY"
 	 visible="false"
@@ -364,7 +364,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Biodiversity and Wildlife Habitat Assessment"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Biodiversity_and_Wildlife_Habitat_Assessment.png"/>
+	 legend="mrc-legends/Natural/Biodiversity_and_Wildlife_Habitat_Assessment.png"/>
 	  <wmsLayer
 	 lid="BAZ"
 	 visible="false"
@@ -374,7 +374,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Lands Managed for Conservation"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Lands_Managed_for_Conservation.png"/>
+	 legend="mrc-legends/Natural/Lands_Managed_for_Conservation.png"/>
 	  <wmsLayer
 	 lid="BBA"
 	 visible="false"
@@ -384,7 +384,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Significant Natural Heritage Areas"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Significant_Natural_Heritage_Areas.png"/>
+	 legend="mrc-legends/Natural/Significant_Natural_Heritage_Areas.png"/>
 	  <wmsLayer
 	 lid="BCA"
 	 visible="false"
@@ -394,7 +394,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Forest Land"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Land.png"/>
+	 legend="mrc-legends/Natural/Forest_Land.png"/>
 	  <wmsLayer
 	 lid="BDA"
 	 visible="false"
@@ -404,7 +404,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Forest Around Forest"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Percent_Forest_Around_Forest.png"/>
+	 legend="mrc-legends/Natural/Percent_Forest_Around_Forest.png"/>
 	  <wmsLayer
 	 lid="BEA"
 	 visible="false"
@@ -414,7 +414,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Forest Type, 2003"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Type,_2003.png"/>
+	 legend="mrc-legends/Natural/Forest_Type,_2003.png"/>
 	  <wmsLayer
 	 lid="BFA"
 	 visible="false"
@@ -424,7 +424,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Forest Group, 2003"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Forest_Group,_2003.png"/>
+	 legend="mrc-legends/Natural/Forest_Group,_2003.png"/>
 	  <wmsLayer
 	 lid="BGA"
 	 visible="false"
@@ -434,7 +434,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Average Forest Canopy Height"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Natural/Average_Forest_Canopy_Height.png"/>
+	 legend="mrc-legends/Natural/Average_Forest_Canopy_Height.png"/>
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G03" name="Human" label="Human">
@@ -448,7 +448,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Population"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Population_(2010).png"/>
+	 legend="mrc-legends/Human/Population_(2010).png"/>
 	  <wmsLayer
 	 lid="CAB"
 	 visible="false"
@@ -458,7 +458,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Population as a Percentage of North Carolina Population"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Population_as_a_Percentage_of_North_Carolina_Population.png"/>
+	 legend="mrc-legends/Human/Population_as_a_Percentage_of_North_Carolina_Population.png"/>
 	  <wmsLayer
 	 lid="CAC"
 	 visible="false"
@@ -468,7 +468,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Population as a Percentage of the MRC Region"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Population_as_a_Percentage_of_the_MRC_Region.png"/>
+	 legend="mrc-legends/Human/Population_as_a_Percentage_of_the_MRC_Region.png"/>
 	  <wmsLayer
 	 lid="CAD"
 	 visible="false"
@@ -478,7 +478,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Change in Median Age (2000-2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Percent_Change_in_Median_Age_(2000-2009).png"/>
+	 legend="mrc-legends/Human/Percent_Change_in_Median_Age_(2000-2009).png"/>
 	  <wmsLayer
 	 lid="CAE"
 	 visible="false"
@@ -488,7 +488,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Age (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Median_Age_(2009).png"/>
+	 legend="mrc-legends/Human/Median_Age_(2009).png"/>
 	  <wmsLayer
 	 lid="CAF"
 	 visible="false"
@@ -498,7 +498,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Scan Population 2006 "
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Land_Scan_Population_2006.png"/>
+	 legend="mrc-legends/Human/Land_Scan_Population_2006.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Health">
       <wmsLayer
@@ -510,7 +510,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Deaths from Cancer, Stroke, and Heart Disease per 10,000 People (2003-2007 Average)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Total_Deaths.png"/>
+	 legend="mrc-legends/Human/Total_Deaths.png"/>
 	  <wmsLayer
 	 lid="CAH"
 	 visible="false"
@@ -520,7 +520,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Physicians per 10,000 People"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Physicians_per_10000_People.jpg"/>
+	 legend="mrc-legends/Human/Physicians_per_10000_People.jpg"/>
 	  <wmsLayer
 	 lid="CAI"
 	 visible="false"
@@ -530,7 +530,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Infant Deaths per 1,000 Births"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Infant_Deaths.jpg"/>
+	 legend="mrc-legends/Human/Infant_Deaths.jpg"/>
 	  <wmsLayer
 	 lid="CAJ"
 	 visible="false"
@@ -540,7 +540,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Child Asthma per 100,000 Children"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Child_Asthma.jpg"/>
+	 legend="mrc-legends/Human/Child_Asthma.jpg"/>
 	  <wmsLayer
 	 lid="FAI"
 	 visible="false"
@@ -550,7 +550,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Asthma Diagnosis Rate per 100,000 (All Ages, 2011)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/asthma_all.jpg"/>
+	 legend="mrc-legends/asthma_all.jpg"/>
 	  <wmsLayer
 	 lid="FAJ"
 	 visible="false"
@@ -560,7 +560,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Diabetes Death Rate per 100,000 (2007 - 2011)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Diabetes_deaths.jpg"/>
+	 legend="mrc-legends/Diabetes_deaths.jpg"/>
 	  <wmsLayer
 	 lid="FAK"
 	 visible="false"
@@ -570,7 +570,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Fast-Food Restaurants per 1,000 (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/FF_rests.jpg"/>
+	 legend="mrc-legends/FF_rests.jpg"/>
 	  <wmsLayer
 	 lid="FAL"
 	 visible="false"
@@ -580,7 +580,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Full-Service Restaurants per 1,000 (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/fullserve_rests.jpg"/>
+	 legend="mrc-legends/fullserve_rests.jpg"/>
 	  <wmsLayer
 	 lid="FAM"
 	 visible="false"
@@ -590,7 +590,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Convenience Stores per 1,000 (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/con_stores.jpg"/>
+	 legend="mrc-legends/con_stores.jpg"/>
 	  <wmsLayer
 	 lid="FAN"
 	 visible="false"
@@ -600,7 +600,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Grocery Stores per 1,000 (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Groc_stores.jpg"/>
+	 legend="mrc-legends/Groc_stores.jpg"/>
 	  <wmsLayer
 	 lid="FAO"
 	 visible="false"
@@ -610,7 +610,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Registered Nurses per 10,000 Population (2010) "
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Nurses.jpg"/>
+	 legend="mrc-legends/Nurses.jpg"/>
 	  <wmsLayer
 	 lid="FAP"
 	 visible="false"
@@ -620,7 +620,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Children who are Overweight or Obese (Ages 2-4, 2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Child_Obesity.jpg"/>
+	 legend="mrc-legends/Child_Obesity.jpg"/>
 	  <wmsLayer
 	 lid="FAQ"
 	 visible="false"
@@ -630,7 +630,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Adults who are Physically Inactive (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Phys_Inactive_Adults.jpg"/>
+	 legend="mrc-legends/Phys_Inactive_Adults.jpg"/>
 	  <wmsLayer
 	 lid="FAR"
 	 visible="false"
@@ -640,7 +640,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Adults Diagnosed with Diabetes (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Adult_Diabetes.jpg"/>
+	 legend="mrc-legends/Adult_Diabetes.jpg"/>
 	  <wmsLayer
 	 lid="FAS"
 	 visible="false"
@@ -650,7 +650,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Adults with Obesity (2009)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Adult_Obesity.jpg"/>
+	 legend="mrc-legends/Adult_Obesity.jpg"/>
     </wmsSubgroup>
     <wmsSubgroup label="Education">
       <wmsLayer
@@ -662,7 +662,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Population with High School Degree (>25 Years Old)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Percent_High_School_Education.png"/>
+	 legend="mrc-legends/Human/Percent_High_School_Education.png"/>
 	  <wmsLayer
 	 lid="CAL"
 	 visible="false"
@@ -672,7 +672,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Population with College Degree (>25 Years Old)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Percent_of_Population_with_College_Degree.png"/>
+	 legend="mrc-legends/Human/Percent_of_Population_with_College_Degree.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Culture">
       <wmsLayer
@@ -684,7 +684,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Music Venues per County"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Human/Number_of_Music_Venues_per_County.png"/>
+	 legend="mrc-legends/Human/Number_of_Music_Venues_per_County.png"/>
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G04" name="Built" label="Built">
@@ -698,7 +698,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Landcover, 2006"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Landcover,_2006.png"/>
+	 legend="mrc-legends/Built/Landcover,_2006.png"/>
 	  <wmsLayer
 	 lid="DAB"
 	 visible="false"
@@ -708,7 +708,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Landcover, 2001"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Landcover,_2001.png"/>
+	 legend="mrc-legends/Built/Landcover,_2001.png"/>
 	  <wmsLayer
 	 lid="DAD"
 	 visible="false"
@@ -718,7 +718,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 1976"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_1976.png"/>
+	 legend="mrc-legends/Built/Land_Use_1976.png"/>
 	  <wmsLayer
 	 lid="DAE"
 	 visible="false"
@@ -728,7 +728,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 1985"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_1985.png"/>
+	 legend="mrc-legends/Built/Land_Use_1985.png"/>
 	  <wmsLayer
 	 lid="DAF"
 	 visible="false"
@@ -738,7 +738,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 1996"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_1996.png"/>
+	 legend="mrc-legends/Built/Land_Use_1996.png"/>
 	  <wmsLayer
 	 lid="DAG"
 	 visible="false"
@@ -748,7 +748,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2006"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_2006.png"/>
+	 legend="mrc-legends/Built/Land_Use_2006.png"/>
 	  <wmsLayer
 	 lid="DAH"
 	 visible="false"
@@ -758,7 +758,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Land Use 2010"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Land_Use_2010.png"/>
+	 legend="mrc-legends/Built/Land_Use_2010.png"/>
 	  <wmsLayer
 	 lid="DAI"
 	 visible="false"
@@ -768,7 +768,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Projected Land Use 2015"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2015.png"/>
+	 legend="mrc-legends/Built/Projected_Land_Use_2015.png"/>
 	  <wmsLayer
 	 lid="DAJ"
 	 visible="false"
@@ -778,7 +778,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Projected Land Use 2020"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2020.png"/>
+	 legend="mrc-legends/Built/Projected_Land_Use_2020.png"/>
 	  <wmsLayer
 	 lid="DAK"
 	 visible="false"
@@ -788,7 +788,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Projected Land Use 2025"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2025.png"/>
+	 legend="mrc-legends/Built/Projected_Land_Use_2025.png"/>
 	  <wmsLayer
 	 lid="DAL"
 	 visible="false"
@@ -798,7 +798,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Projected Land Use 2030"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Projected_Land_Use_2030.png"/>
+	 legend="mrc-legends/Built/Projected_Land_Use_2030.png"/>
 	  <wmsLayer
 	 lid="DAM"
 	 visible="false"
@@ -808,7 +808,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Forested Area to Developed by 2030"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Forested_Area_to_Developed_by_2030.png"/>
+	 legend="mrc-legends/Built/Forested_Area_to_Developed_by_2030.png"/>
 	</wmsSubgroup>
     <wmsSubgroup label="Transportation">
 	  <wmsLayer
@@ -820,7 +820,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Airports"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Airports.png"/>
+	 legend="mrc-legends/Built/Airports.png"/>
 	  <wmsLayer
 	 lid="DAO"
 	 visible="false"
@@ -830,7 +830,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Roads"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Roads.png"/>
+	 legend="mrc-legends/Built/Roads.png"/>
 	  <wmsLayer
 	 lid="DAP"
 	 visible="false"
@@ -840,7 +840,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Railroads"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Railroads.png"/>
+	 legend="mrc-legends/Built/Railroads.png"/>
 	  <wmsLayer
 	 lid="DAQ"
 	 visible="false"
@@ -850,7 +850,7 @@
 	 styles="default"
 	 identify="true"
 	 name="National Forest Roadless Areas"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/National_Forest_Roadless_Areas.png"/>
+	 legend="mrc-legends/Built/National_Forest_Roadless_Areas.png"/>
 	  <wmsLayer
 	 lid="DAR"
 	 visible="false"
@@ -860,7 +860,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Unpaved Roads"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Percent_Unpaved_Roads.png"/>
+	 legend="mrc-legends/Built/Percent_Unpaved_Roads.png"/>
 	</wmsSubgroup>
     <wmsSubgroup label="Housing">
 	  <wmsLayer
@@ -872,7 +872,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Renters Unable to Afford Two-Bedroom"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Percent_of_Renters_Unable_to_Afford_Two-Bedroom.png"/>
+	 legend="mrc-legends/Built/Percent_of_Renters_Unable_to_Afford_Two-Bedroom.png"/>
 	  <wmsLayer
 	 lid="DAT"
 	 visible="false"
@@ -882,7 +882,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Rent Affordable with Full-time Job"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Rent_Affordable_with_Full-time_Job.png"/>
+	 legend="mrc-legends/Built/Rent_Affordable_with_Full-time_Job.png"/>
 	  <wmsLayer
 	 lid="DAU"
 	 visible="false"
@@ -892,7 +892,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Two-Bedroom Fair Market Rent"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Two-Bedroom_Fair_Market_Rent.png"/>
+	 legend="mrc-legends/Built/Two-Bedroom_Fair_Market_Rent.png"/>
 	  <wmsLayer
 	 lid="DAV"
 	 visible="false"
@@ -902,7 +902,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median House Values"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Median_House_Values.png"/>
+	 legend="mrc-legends/Built/Median_House_Values.png"/>
 	  <wmsLayer
 	 lid="DAW"
 	 visible="false"
@@ -912,7 +912,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Housing Units per County"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Housing_Units_per_County.png"/>
+	 legend="mrc-legends/Built/Housing_Units_per_County.png"/>
 	  <wmsLayer
 	 lid="FAA"
 	 visible="false"
@@ -922,7 +922,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Change in Housing Units (2000-2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/housing_unit_change.jpg"/>
+	 legend="mrc-legends/housing_unit_change.jpg"/>
 	  <wmsLayer
 	 lid="FAB"
 	 visible="false"
@@ -932,7 +932,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Housing Unit Density, Number per Square Mile(2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/house_density.jpg"/>
+	 legend="mrc-legends/house_density.jpg"/>
 	  <wmsLayer
 	 lid="FAC"
 	 visible="false"
@@ -942,7 +942,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Foreclosure Increases from 2002 - 2012"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/foreclosures.jpg"/>
+	 legend="mrc-legends/foreclosures.jpg"/>
 	  <wmsLayer
 	 lid="FAD"
 	 visible="false"
@@ -952,7 +952,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Property Tax Rate per $100 Value (2012 - 2013)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/prop_tax.jpg"/>
+	 legend="mrc-legends/prop_tax.jpg"/>
 	</wmsSubgroup> 
     <wmsSubgroup label="Energy">
 	  <wmsLayer
@@ -964,7 +964,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Power Plants"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Power_Plants.png"/>
+	 legend="mrc-legends/Built/Power_Plants.png"/>
 	  <wmsLayer
 	 lid="DAY"
 	 visible="false"
@@ -974,7 +974,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Gas Pipelines"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Gas_Pipelines.png"/>
+	 legend="mrc-legends/Built/Gas_Pipelines.png"/>
 	  <wmsLayer
 	 lid="DAZ"
 	 visible="false"
@@ -984,7 +984,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Household Energy Expenditure"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Household_Energy_Expenditure.png"/>
+	 legend="mrc-legends/Built/Household_Energy_Expenditure.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Risks, Hazards, and Stressors">
 	  <wmsLayer
@@ -996,7 +996,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Documented Forest Fires (1970-2008)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Documented_Forest_Fires_(1970-2008).png"/>
+	 legend="mrc-legends/Built/Documented_Forest_Fires_(1970-2008).png"/>
 	  <wmsLayer
 	 lid="DBB"
 	 visible="false"
@@ -1006,7 +1006,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Landslides"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Landslides.png"/>
+	 legend="mrc-legends/Built/Landslides.png"/>
 	  <wmsLayer
 	 lid="DBC"
 	 visible="false"
@@ -1016,7 +1016,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Hurricane Tracks 1950-2005"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Hurricane_Tracks_1950-2005.png"/>
+	 legend="mrc-legends/Built/Hurricane_Tracks_1950-2005.png"/>
 	  <wmsLayer
 	 lid="DBD"
 	 visible="false"
@@ -1026,7 +1026,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Floodplains"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Built/Floodplains.png"/>
+	 legend="mrc-legends/Built/Floodplains.png"/>
     </wmsSubgroup>
   </wmsGroup>
   <wmsGroup gid="G05" name="Economic" label="Economic">
@@ -1040,7 +1040,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percentage of Population in Poverty (all ages)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Poverty_Rates_(Percent).png"/>
+	 legend="mrc-legends/Economic/Poverty_Rates_(Percent).png"/>
 	  <wmsLayer
 	 lid="EAB"
 	 visible="false"
@@ -1050,7 +1050,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Household Income"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income.jpg"/>
+	 legend="mrc-legends/Economic/Median_Household_Income.jpg"/>
 	  <wmsLayer
 	 lid="EAC"
 	 visible="false"
@@ -1060,7 +1060,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Household Income as a Percentage of US Median Household Income"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_US_Median_Household_Income.jpg"/>
+	 legend="mrc-legends/Economic/Median_Household_Income_as_a_Percentage_of_US_Median_Household_Income.jpg"/>
 	  <wmsLayer
 	 lid="EAD"
 	 visible="false"
@@ -1070,7 +1070,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Median Household Income as a Percentage of North Carolina Median Household Income"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Median_Household_Income_as_a_Percentage_of_North_Carolina_Median_Household_Income.jpg"/>
+	 legend="mrc-legends/Economic/Median_Household_Income_as_a_Percentage_of_North_Carolina_Median_Household_Income.jpg"/>
 	  <wmsLayer
 	 lid="FAE"
 	 visible="false"
@@ -1080,7 +1080,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Households Receiving SNAP Benefits (2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/SNAP.jpg"/>
+	 legend="mrc-legends/SNAP.jpg"/>
 	  <wmsLayer
 	 lid="FAF"
 	 visible="false"
@@ -1090,7 +1090,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent of Children in Poverty"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/child_poverty.jpg"/>
+	 legend="mrc-legends/child_poverty.jpg"/>
 	  <wmsLayer
 	 lid="FAG"
 	 visible="false"
@@ -1100,7 +1100,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Difference in Mean and Median Household Incomes (2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/diff_mean_mid.jpg"/>
+	 legend="mrc-legends/diff_mean_mid.jpg"/>
 	  <wmsLayer
 	 lid="FAH"
 	 visible="false"
@@ -1110,7 +1110,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Mean Household Income (2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Mean_HHI.jpg"/>
+	 legend="mrc-legends/Mean_HHI.jpg"/>
     </wmsSubgroup>
     <wmsSubgroup label="Total Employment">
 	  <wmsLayer
@@ -1122,7 +1122,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Change in Employment Percent (1990-2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Change_in_Employment_Percent_(1990-2010).png"/>
+	 legend="mrc-legends/Economic/Change_in_Employment_Percent_(1990-2010).png"/>
 	  <wmsLayer
 	 lid="EAF"
 	 visible="false"
@@ -1132,7 +1132,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Employment (2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Employment_(2010).png"/>
+	 legend="mrc-legends/Economic/Total_Employment_(2010).png"/>
 	  <wmsLayer
 	 lid="EAG"
 	 visible="false"
@@ -1142,7 +1142,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Regional Employment Percent NC"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Regional_Employment_Percent_NC.png"/>
+	 legend="mrc-legends/Economic/Regional_Employment_Percent_NC.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Employment Sectors">
 	  <wmsLayer
@@ -1154,7 +1154,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Tourism Spending per 10,000 People"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Spending_per_10,000_People.png"/>
+	 legend="mrc-legends/Economic/Tourism_Spending_per_10,000_People.png"/>
 	  <wmsLayer
 	 lid="EAI"
 	 visible="false"
@@ -1164,7 +1164,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Tourism Employment as a Percentage of Total Employment"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Tourism_Employment_as_a_Percentage_of_Total_Employment.png"/>
+	 legend="mrc-legends/Economic/Tourism_Employment_as_a_Percentage_of_Total_Employment.png"/>
 	  <wmsLayer
 	 lid="EAK"
 	 visible="false"
@@ -1174,7 +1174,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Small Establishment (Firms with less than 500 Employees) as a Percentage of Total Employment"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Small_Establishment_(Firms_with_less_than_500_Employees)_as_a_Percentage_of_Total_Employment.png"/>
+	 legend="mrc-legends/Economic/Small_Establishment_(Firms_with_less_than_500_Employees)_as_a_Percentage_of_Total_Employment.png"/>
 	  <wmsLayer
 	 lid="EAL"
 	 visible="false"
@@ -1184,7 +1184,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Change in LQ (1990-2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Change_in_LQ_(1990-2010).png"/>
+	 legend="mrc-legends/Economic/Change_in_LQ_(1990-2010).png"/>
 	  <wmsLayer
 	 lid="EAM"
 	 visible="false"
@@ -1194,7 +1194,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Location Quotient (2010)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Location_Quotient_(2010).png"/>
+	 legend="mrc-legends/Economic/Location_Quotient_(2010).png"/>
 	  <wmsLayer
 	 lid="EAN"
 	 visible="false"
@@ -1204,7 +1204,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Large Establishment (Firms with more than 500 Employees) as a Percentage of Total Employment"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Large_Establishment_(Firms_with_more_than_500_Employees)_as_a_Percentage_of_Total_Employment3.png"/>
+	 legend="mrc-legends/Economic/Large_Establishment_(Firms_with_more_than_500_Employees)_as_a_Percentage_of_Total_Employment3.png"/>
       <wmsLayer
 	 lid="EAO"
 	 visible="false"
@@ -1214,7 +1214,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Number of Large Establishments (Firms with 500 Employees)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Number_of_Large_Establishments_(Firms_with_500_Employees)_by_County.png"/>
+	 legend="mrc-legends/Economic/Number_of_Large_Establishments_(Firms_with_500_Employees)_by_County.png"/>
 	  <wmsLayer
 	 lid="EAP"
 	 visible="false"
@@ -1224,7 +1224,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percentage of Businesses with less than 10 Employees"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percentage_of_Businesses_with_10_Employees.png"/>
+	 legend="mrc-legends/Economic/Percentage_of_Businesses_with_10_Employees.png"/>
     </wmsSubgroup>
     <wmsSubgroup label="Agriculture">
 	  <wmsLayer
@@ -1236,7 +1236,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farm Gate Receipts (2007)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farm_Gate_Receipts_(2007).png"/>
+	 legend="mrc-legends/Economic/Total_Farm_Gate_Receipts_(2007).png"/>
 	  <wmsLayer
 	 lid="EAR"
 	 visible="false"
@@ -1246,7 +1246,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farms (2007)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farms_(2007).png"/>
+	 legend="mrc-legends/Economic/Total_Farms_(2007).png"/>
 	  <wmsLayer
 	 lid="EAS"
 	 visible="false"
@@ -1256,7 +1256,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farms (2002)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farms_(2002).png"/>
+	 legend="mrc-legends/Economic/Total_Farms_(2002).png"/>
 	  <wmsLayer
 	 lid="EAT"
 	 visible="false"
@@ -1266,7 +1266,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Farms (1997)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Farms_(1997).png"/>
+	 legend="mrc-legends/Economic/Total_Farms_(1997).png"/>
 	  <wmsLayer
 	 lid="EAU"
 	 visible="false"
@@ -1276,7 +1276,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Family Owned Farms (2007)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2007).png"/>
+	 legend="mrc-legends/Economic/Total_Family_Owned_Farms_(2007).png"/>
 	  <wmsLayer
 	 lid="EAV"
 	 visible="false"
@@ -1286,7 +1286,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Family Owned Farms (2002)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(2002).png"/>
+	 legend="mrc-legends/Economic/Total_Family_Owned_Farms_(2002).png"/>
 	  <wmsLayer
 	 lid="EAW"
 	 visible="false"
@@ -1296,7 +1296,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Total Family Owned Farms (1997)"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Total_Family_Owned_Farms_(1997).png"/>
+	 legend="mrc-legends/Economic/Total_Family_Owned_Farms_(1997).png"/>
       <wmsLayer
 	 lid="EAX"
 	 visible="false"
@@ -1306,7 +1306,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Family Owned Farms 2007"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percent_Family_Owned_Farms_2007.png"/>
+	 legend="mrc-legends/Economic/Percent_Family_Owned_Farms_2007.png"/>
 	  <wmsLayer
 	 lid="EAY"
 	 visible="false"
@@ -1316,7 +1316,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Family Owned Farms 2002"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percent_Family_Owned_Farms_2002.png"/>
+	 legend="mrc-legends/Economic/Percent_Family_Owned_Farms_2002.png"/>
 	  <wmsLayer
 	 lid="EAZ"
 	 visible="false"
@@ -1326,7 +1326,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Percent Family Owned Farms 1997"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Percent_Family_Owned_Farms_1997.png"/>
+	 legend="mrc-legends/Economic/Percent_Family_Owned_Farms_1997.png"/>
 	  <wmsLayer
 	 lid="EBA"
 	 visible="false"
@@ -1336,7 +1336,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Average Farm Value 2007"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Value_2007_2.png"/>
+	 legend="mrc-legends/Economic/Average_Farm_Value_2007_2.png"/>
 	  <wmsLayer
 	 lid="EBB"
 	 visible="false"
@@ -1346,7 +1346,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Average Farm Size 2002"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Size_2002.png"/>
+	 legend="mrc-legends/Economic/Average_Farm_Size_2002.png"/>
 	  <wmsLayer
 	 lid="EBC"
 	 visible="false"
@@ -1356,7 +1356,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Average Farm Size 2007"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Size_2007.png"/>
+	 legend="mrc-legends/Economic/Average_Farm_Size_2007.png"/>
       <wmsLayer
 	 lid="EBD"
 	 visible="false"
@@ -1366,7 +1366,7 @@
 	 styles="default"
 	 identify="true"
 	 name="Average Farm Size 1997"
-	 legend="http://www1.nemac.unca.edu/NEMAC_MapViewer/assets/Mashup_Legends/MRC/Economic/Average_Farm_Size_1997.png"/>
+	 legend="mrc-legends/Economic/Average_Farm_Size_1997.png"/>
     </wmsSubgroup>
   </wmsGroup>
 
