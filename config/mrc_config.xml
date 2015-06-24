@@ -499,6 +499,16 @@
 	 identify="true"
 	 name="Land Scan Population 2006 "
 	 legend="mrc-legends/Human/Land_Scan_Population_2006.png"/>
+	  <wmsLayer
+	 lid="FSI"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="TRACTPOP_2010"
+	 styles="default"
+	 identify="true"
+	 name="Population Density by Census Tract, 2010"
+	 legend="mrc-legends/Food_Insecurity/PopDens10.JPG"/>
     </wmsSubgroup>
     <wmsSubgroup label="Health">
       <wmsLayer
@@ -651,6 +661,86 @@
 	 identify="true"
 	 name="Percent of Adults with Obesity (2009)"
 	 legend="mrc-legends/Adult_Obesity.jpg"/>
+	  <wmsLayer
+	 lid="FSA"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="PER_FOODINSEC_UN18"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Adults with Obesity (2009)"
+	 legend="mrc-legends/Food_Insecurity/fooinsecChld1.JPG"/>
+	  <wmsLayer
+	 lid="FSB"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="LILA_1_10"
+	 styles="default"
+	 identify="true"
+	 name="USDA Food Deserts by Census Tract, 2013"
+	 legend="mrc-legends/Food_Insecurity/fooddeserts1.JPG"/>
+	  <wmsLayer
+	 lid="FSC"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="DOLLOCALFD2"
+	 styles="default"
+	 identify="true"
+	 name="School Food Dollars Spent on Local Food, per Number of Students, 2011-2012"
+	 legend="mrc-legends/Food_Insecurity/SchlDollaLF3.JPG"/>
+	  <wmsLayer
+	 lid="FSD"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="DOLLOCALFD"
+	 styles="default"
+	 identify="true"
+	 name="School Food Dollars Spent on Local Food, per Number of Schools, 2011-2012"
+	 legend="mrc-legends/Food_Insecurity/SchlDollaLF4.JPG"/>
+	  <wmsLayer
+	 lid="FSE"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="PCT_SCHLFD"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Total School Food Dollars Spent on Local Food, 2011-2012"
+	 legend="mrc-legends/Food_Insecurity/SchlDollaLF1.JPG"/>
+	  <wmsLayer
+	 lid="FSF"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="PER_STNDT_REDLUNCH"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Students (K-12) Receiving Free and Reduced Lunches, 2012-2013"
+	 legend="mrc-legends/Food_Insecurity/perredlunch1.JPG"/>
+	  <wmsLayer
+	 lid="FSG"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="NUM_EFNEP"
+	 styles="default"
+	 identify="true"
+	 name="Number of Adult and Youth EFNEP Group Programs, 2013-2014"
+	 legend="mrc-legends/Food_Insecurity/EFNEP1.JPG"/>
+	  <wmsLayer
+	 lid="FSH"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="FOOD_INSEC_RATE"
+	 styles="default"
+	 identify="true"
+	 name="Food Insecurity Rate Among All Individuals, 2012"
+	 legend="mrc-legends/Food_Insecurity/foodinsecall1.JPG"/>
     </wmsSubgroup>
     <wmsSubgroup label="Education">
       <wmsLayer
@@ -1111,6 +1201,26 @@
 	 identify="true"
 	 name="Mean Household Income (2010)"
 	 legend="mrc-legends/Mean_HHI.jpg"/>
+	  <wmsLayer
+	 lid="FSJ"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="HH_SNAPGAP"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Households Below the Poverty Level and Not Receiving SNAP Benefits, 2013"
+	 legend="mrc-legends/Food_Insecurity/HHSNAPGAP1.JPG"/>
+	  <wmsLayer
+	 lid="FSK"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="PER_HH_SNAP"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Households Receiving SNAP Benefits, 2013"
+	 legend="mrc-legends/Food_Insecurity/HHSNAP1.JPG"/>
     </wmsSubgroup>
     <wmsSubgroup label="Total Employment">
 	  <wmsLayer
@@ -1367,6 +1477,86 @@
 	 identify="true"
 	 name="Average Farm Size 1997"
 	 legend="mrc-legends/Economic/Average_Farm_Size_1997.png"/>
+	  <wmsLayer
+	 lid="FSL"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="PERDIRSAL12"
+	 styles="default"
+	 identify="true"
+	 name="Percent of Agriculture Sold Locally, 2012"
+	 legend="mrc-legends/Food_Insecurity/perdirsales1.JPG"/>
+	  <wmsLayer
+	 lid="FSM"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="NUM_FRMSTNDS"
+	 styles="default"
+	 identify="true"
+	 name="Number of Farmers Markets, Farm Stands, and Produce Stands, 2014"
+	 legend="mrc-legends/Food_Insecurity/Numfarmstands1.JPG"/>
+	  <wmsLayer
+	 lid="FSN"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="TOT_FARM_REC_12"
+	 styles="default"
+	 identify="true"
+	 name="Total Receipts, 2012"
+	 legend="mrc-legends/Food_Insecurity/totreceipts1.JPG"/>
+	  <wmsLayer
+	 lid="FSO"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="TOT_FRM_OPS_2012"
+	 styles="default"
+	 identify="true"
+	 name="Total Farms, 2012"
+	 legend="mrc-legends/Food_Insecurity/totfarms1.JPG"/>
+	  <wmsLayer
+	 lid="FSP"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="NUM_FAM_FRM_12"
+	 styles="default"
+	 identify="true"
+	 name="Total Family Owned Farms, 2012"
+	 legend="mrc-legends/Food_Insecurity/totfamownfarm1.JPG"/>
+	  <wmsLayer
+	 lid="FSQ"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="PCT_FAM_FRMS_12"
+	 styles="default"
+	 identify="true"
+	 name="Percent Family Owned Farms, 2012"
+	 legend="mrc-legends/Food_Insecurity/perfamownfarm1.JPG"/>
+	  <wmsLayer
+	 lid="FSR"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="AVG_VAL_FARM_2012"
+	 styles="default"
+	 identify="true"
+	 name="Average Value per Farm, 2012"
+	 legend="mrc-legends/Food_Insecurity/avgvalfarm1.JPG"/>
+	  <wmsLayer
+	 lid="FSS"
+	 visible="false"
+	 url="http://cloud2.nemac.org:6080/ArcGIS/services/MRC/Food_security/MapServer/WMSServer?TRANSPARENT=true"
+	 srs="EPSG:4326"
+	 layers="AVG_FRM_ACRES_12"
+	 styles="default"
+	 identify="true"
+	 name="Average Farm Size, 2012"
+	 legend="mrc-legends/Food_Insecurity/avgfarmsize1.JPG"/>
     </wmsSubgroup>
   </wmsGroup>
 
