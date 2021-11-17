@@ -1,123 +1,25 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head profile="http://www.w3.org/2005/10/profile">
-    <link rel="icon" type="image/png" href="icons/favicon.ico">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
     <title>WNC Vitality Index GIS Viewer</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=8" >
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-
-    <script type="text/javascript" src="libs/seldon/libs/multigraph/multigraph-min-4.0.js"></script>
-    <script type="text/javascript">$ = window.multigraph.jQuery;</script>
-    <script type="text/javascript" src="libs/seldon/ajaxtransport.js"></script>
-    <script src="libs/seldon/libs/OpenLayers213/OpenLayersBuild.js"></script>
-
-    <link type="text/css" rel="stylesheet" href="libs/seldon/reset.css"/>
-    <link type="text/css" rel="stylesheet"
-          href="libs/seldon/libs/jquery-ui/smoothness/jquery-ui-1.10.1.custom/css/smoothness/jquery-ui-1.10.1.custom.min.css"/>
-    <script type="text/javascript"
-            src="libs/seldon/libs/jquery-ui/smoothness/jquery-ui-1.10.1.custom/js/jquery-ui-1.10.1.custom.min.js"></script>
-
-    <script type="text/javascript" src="libs/seldon/libs/mustache/mustache.js"></script>
-    <script type="text/javascript" src="libs/seldon/libs/sprintf/sprintf-0.7-beta1.js"></script>
-    <script type="text/javascript" src="libs/seldon/eventEmitter.js"></script>
-    <script type="text/javascript" src="libs/seldon/listAccordion.js"></script>
-    <script type="text/javascript" src="libs/seldon/findArea.js"></script>
-    <script type="text/javascript" src="areas.js"></script>
-    <script type="text/javascript" src="libs/seldon/seldon.js"></script>
-
-    <link type="text/css" rel="stylesheet" href="libs/seldon/seldon.css"/>
-    <link rel="stylesheet" type="text/css" href="mrcgis.css" />
-
-    <script type="text/javascript">
-      $('document').ready(function() {
-          seldon.init("config/mrc_config.xml","EPSG:4326", "ArcGIS");
-      });
-    </script>
-
-    <!--[if IE]>
-        <link rel="stylesheet" type="text/css" href="libs/seldon/ie.css" />
-    <![endif]-->
-
+    <meta name="description" content="Interactive GIS viewer for one of the WNC Vitality Index.">
+    <link rel="stylesheet" href="./style.css" type="text/css" media="all">
+    <link rel="Shortcut Icon" href="http://www.wncvitalityindex.org/gis/icons/favicon.ico" type="image/x-icon">
   </head>
-
   <body>
-
-    <div id="titleBar">
-      <h2>WNC Vitality Index GIS Viewer</h2>
-    </div>
-
-    <div id="header">
-      <div class="header-bar">
-        <div id="btnTglLyrPick" class="btn-large header-bar">
-          <img id="tglLyrPickPic" src="icons/layers.png" class="icon" title="Toggle Map Layers" alt="Toggle Map Layers"/>
-        </div>        
-        <div id="btnTglMapTools" class="btn-large header-bar">
-          <img id="tglLegendPic" src="icons/legend.png" class="icon" title="Toggle Map Tools" alt="Toggle Map Tools"/>
-        </div>
-        <div id="btnAbout" class="btn-large header-bar">
-          <img id="aboutPic" src="icons/about.png" class="icon" title="About" alt="About"/>
-        </div>
+    <div class="warning-wrapper">
+      <div class="warning-header">
+        <span class="warning-icon warning-icon-left">&#x26a0;</span>GIS Viewer down for maintenance<span class="warning-icon warning-icon-right">&#x26a0;</span>
       </div>
-
-
-      <div id="btn-small-group" class="header-bar">
-        <div id="btnPan" class="header-bar">
-          <img id="panPic" src="icons/pan.png" class="icon" title="Pan" alt="Pan"/>
-        </div>
-        <div id="btnZoomIn" class="header-bar hidden-phone-portrait hidden-phone-landscape">
-          <img id="zoomInPic" src="icons/zoom-in.png" class="icon" title="Zoom In" alt="Zoom In"/>
-        </div>
-        <div id="btnZoomOut" class="header-bar hidden-phone-portrait hidden-phone-landscape">
-          <img id="zoomOutPic" src="icons/zoom-out.png" class="icon" title="Zoom Out" alt="Zoom Out"/>
-        </div>
-        <div id="btnID" class="header-bar">
-          <img id="idPic" src="icons/map-info.png" class="icon" title="Identify" alt="Identify"/>
-        </div>
-        <div id="btnZoomExtent" class="header-bar">
-          <img id="zoomExtentPic" src="icons/zoom-extent.png" class="icon" title="Full Extent" alt="Full Extent"/>
-        </div>
-        <div id="btnPrev" class="header-bar hidden-phone-portrait hidden-phone-landscape">
-          <img id="prevPic" src="icons/prev.png" class="icon" title="Previous Extent" alt="Previous Extent"/>
-        </div>
-        <div id="btnNext" class="header-bar hidden-phone-portrait hidden-phone-landscape">
-          <img id="nextPic" src="icons/next.png" class="icon" title="Next Extent" alt="Next Extent"/>
-        </div>
+      <div class="warning-body">
+        The WNC Vitality Index GIS Viewer is down for maintenance for the foreseeable future. Please contact the administrators of the WNC Vitality Index website for data requests or more information​ using the site's <a href="http://www.wncvitalityindex.org/contact">Contact page</a>. We apologize for any inconvience.
+		<br>
+		You may also want to visit the <a href="http://southernappalachianvitalityindex.org/">Southern Appaplachian Vitality Index</a>, which also has an <a href="http://southernappalachianvitalityindex.org/map">interactive map viewer </a> with similar datasets and themes.
       </div>
-      <div id="mapBase" class="header-bar input input-select">
-        <strong>Base Map:</strong><select id="baseCombo"></select>
+      <div class="warning-footer">
+        <a href="http://www.wncvitalityindex.org" title="WNC Vitality Index main page">Return to WNC Vitality Index</a>
       </div>
-      <div id="txtFindArea" class="ui-widget" class="header-bar input">
-        <strong id="findAreaLabel">Find Area:</strong><input id="findArea"/>
-      </div>
-
-
     </div>
-
-    <div id="map"></div>
-
-    <div title="Map Layers" id="layerPickerDialog">
-    </div>    
-
-    <div title="Map Tools" id="mapToolsDialog">
-      <div id="mapToolsAccordion">
-        <h3>Share this Map</h3>
-        <div><textarea class="shareMapUrl" readonly="true"></textarea></div>
-        <h3>Legend (click to clear layer)</h3>
-        <div id="legend"></div>
-      </div> 
-    </div>
-
-    <div id="footer">      
-      <div id="links">
-        <a href="http://www.wncvitalityindex.org/">WNC Vitality Index</a>
-      </div>
-      <div id="latLonTracker"></div>
-    </div>
-
-    <div id="propertyDialogsContainer"></div>
-    <div id="splashScreenContainer" title="WNC Vitality Index GIS Viewer">
-      <div id="splashScreenContent"></div>
-    </div>
-
   </body>
 </html>

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, Arial, sans-serif;
+    text-align: center;
+    background-color: #f0e1c4;
+    background-image: url("./wncvi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.warning-wrapper {
+    width: 715px;
+    max-width: 100%;
+    padding: 15px;
+    margin: 5% auto 0;
+    border-radius: 15px;
+    background-color: #fff;
+    background-color: rgba(255,255,255,.8);
+}
+
+.warning-header {
+    font-size: 24px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #aaa;
+}
+
+.warning-icon {
+    color: #ff8a0a;
+    font-size: 40px;
+    position: absolute;
+    top: -16px;
+}
+
+.warning-icon-left {
+    left: 0;
+}
+
+.warning-icon-right {
+    right: 0;
+}
+
+.warning-body {
+    font-size: 20px;
+    text-align: left;
+    padding: 0px 56px 20px;
+}
+
+.warning-footer a {
+    font-size: 18px;
+    color: blue;
+}
